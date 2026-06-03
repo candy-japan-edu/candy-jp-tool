@@ -31,9 +31,9 @@ page.on("pageerror", (error) => errors.push(error.message));
 await page.goto("http://localhost:4173/", { waitUntil: "networkidle" });
 const home = {
   title: await page.title(),
-  majorCount: await page.locator("#majorCount").textContent(),
-  calendarTitle: await page.locator("#calendarTitle").textContent(),
-  calendarEvents: await page.locator(".calendar-event").count(),
+  pageHeading: await page.locator(".home-intro h1").textContent(),
+  calendarViews: await page.locator("#calendarView").count(),
+  popularCards: await page.locator("#popularSchools .school-summary-card").count(),
   eventCards: await page.locator(".event-card").count(),
   pendingTimelineCards: await page.locator(".pending-date-card").count(),
   h1: await page.locator("h1").first().textContent()
@@ -44,10 +44,7 @@ await page.screenshot({ path: "/private/tmp/candy-h5-home-viewport.png", fullPag
 await page.fill("#searchInput", "东京大学 机械");
 await page.waitForTimeout(150);
 const filteredTitle = await page.locator("#resultTitle").textContent();
-await page.click("#listButton");
-await page.waitForTimeout(150);
-const listCards = await page.locator(".school-card").count();
-await page.click('[data-add-compare="todai-eng-mech"]');
+const listCards = await page.locator("#listView .school-summary-card").count();
 
 await page.goto("http://localhost:4173/school.html?id=todai-eng-mech", { waitUntil: "networkidle" });
 const detail = {

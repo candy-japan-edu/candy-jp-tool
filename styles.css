@@ -29,6 +29,7 @@ body {
     linear-gradient(180deg, #1a0f2e 0%, #211337 45%, #1a0f2e 100%);
   color: var(--white);
   font-family: "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 16px;
   line-height: 1.55;
   letter-spacing: 0;
 }
@@ -62,11 +63,11 @@ img {
   top: 0;
   z-index: 40;
   display: flex;
-  min-height: 66px;
+  min-height: 72px;
   align-items: center;
   justify-content: space-between;
   gap: 14px;
-  padding: 10px 18px;
+  padding: 14px 24px;
   background: #1a0f2e;
   border-bottom: 1px solid var(--line);
 }
@@ -75,7 +76,7 @@ img {
   display: inline-flex;
   min-width: 0;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 
 .brand-mark,
@@ -111,12 +112,12 @@ img {
 
 .brand strong {
   max-width: 190px;
-  font-size: 0.98rem;
+  font-size: 1rem;
 }
 
 .brand small {
   color: var(--muted);
-  font-size: 0.76rem;
+  font-size: 0.875rem;
 }
 
 .header-link {
@@ -129,7 +130,7 @@ img {
   border: 1px solid var(--line);
   border-radius: 8px;
   color: var(--pink-soft);
-  font-size: 0.86rem;
+  font-size: 0.875rem;
   font-weight: 700;
   white-space: nowrap;
 }
@@ -145,24 +146,19 @@ img {
 .page-shell {
   width: min(1120px, 100%);
   margin: 0 auto;
-  padding: 22px 16px 0;
+  padding: 30px 24px 0;
 }
 
-.hero-section {
-  display: grid;
-  gap: 20px;
-  padding: 18px 0 10px;
-}
-
-.hero-copy {
+.home-intro {
   display: grid;
   gap: 12px;
+  padding: 18px 0 24px;
 }
 
 .eyebrow {
   margin: 0;
   color: var(--pink-soft);
-  font-size: 0.78rem;
+  font-size: 0.875rem;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -174,19 +170,23 @@ p {
   margin-top: 0;
 }
 
-.hero-copy h1,
+.home-intro h1,
 .compare-head h1 {
   margin: 0;
-  font-size: 2.08rem;
+  font-size: 1.65rem;
   line-height: 1.12;
   font-weight: 900;
 }
 
-.hero-copy h1 {
-  max-width: 920px;
+.home-intro h1 {
+  white-space: nowrap;
 }
 
-.hero-copy p:last-child {
+.compare-head h1 {
+  font-size: 2rem;
+}
+
+.home-intro p:last-child {
   max-width: 760px;
   margin: 0;
   color: var(--muted-strong);
@@ -195,8 +195,9 @@ p {
 
 .search-panel {
   display: grid;
-  gap: 16px;
-  padding: 16px;
+  gap: 24px;
+  margin-bottom: 24px;
+  padding: 24px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
@@ -205,27 +206,27 @@ p {
 
 .search-box {
   display: grid;
-  gap: 8px;
+  gap: 12px;
 }
 
 .search-box span,
 .filter-group p {
   margin: 0;
   color: var(--muted);
-  font-size: 0.82rem;
+  font-size: 0.875rem;
   font-weight: 700;
 }
 
 .search-box input {
   width: 100%;
-  min-height: 52px;
-  padding: 0 14px;
+  min-height: 62px;
+  padding: 0 18px;
   border: 1px solid var(--line);
   border-radius: 8px;
   outline: none;
   background: #ffffff;
   color: #1a0f2e;
-  font-size: 1rem;
+  font-size: 1.08rem;
 }
 
 .search-box input:focus {
@@ -235,12 +236,12 @@ p {
 
 .filter-group {
   display: grid;
-  gap: 9px;
+  gap: 14px;
 }
 
 .chip-row {
   display: flex;
-  gap: 8px;
+  gap: 12px;
   overflow-x: auto;
   padding-bottom: 2px;
   scrollbar-width: none;
@@ -252,16 +253,16 @@ p {
 
 .chip {
   display: inline-flex;
-  min-height: 38px;
+  min-height: 44px;
   flex: 0 0 auto;
   align-items: center;
   justify-content: center;
-  padding: 0 14px;
+  padding: 0 18px;
   border: 1px solid var(--line);
   border-radius: 999px;
   background: #201233;
   color: var(--white);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 700;
 }
 
@@ -271,15 +272,45 @@ p {
   color: var(--bg);
 }
 
-.view-toolbar {
+.view-toolbar,
+.search-actions {
   display: grid;
-  gap: 12px;
+  gap: 14px;
 }
 
 .active-filter-line {
   min-height: 26px;
   color: var(--muted-strong);
-  font-size: 0.88rem;
+  font-size: 0.875rem;
+}
+
+.stats-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 24px 0 32px;
+}
+
+.stats-strip article {
+  min-height: 96px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-2);
+}
+
+.stats-strip span {
+  display: block;
+  color: var(--pink-soft);
+  font-family: Anton, "Bebas Neue", Impact, sans-serif;
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.stats-strip p {
+  margin: 9px 0 0;
+  color: var(--muted);
+  font-size: 0.875rem;
 }
 
 .segmented {
@@ -359,7 +390,7 @@ p {
   align-items: center;
   justify-content: space-between;
   gap: 14px;
-  margin: 6px 0 14px;
+  margin: 32px 0 18px;
 }
 
 .content-head h2 {
@@ -517,12 +548,12 @@ p {
 
 .text-button {
   min-height: 38px;
-  padding: 0 12px;
+  padding: 0 14px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: transparent;
   color: var(--pink-soft);
-  font-size: 0.88rem;
+  font-size: 0.875rem;
   font-weight: 800;
 }
 
@@ -558,9 +589,10 @@ p {
 
 .event-list,
 .tier-list,
-.cards-grid {
+.cards-grid,
+.popular-grid {
   display: grid;
-  gap: 12px;
+  gap: 24px;
 }
 
 .event-card,
@@ -576,8 +608,8 @@ p {
 .event-card {
   display: grid;
   grid-template-columns: 46px minmax(0, 1fr);
-  gap: 12px;
-  padding: 13px;
+  gap: 18px;
+  padding: 20px;
 }
 
 .school-logo {
@@ -607,7 +639,7 @@ p {
 
 .event-top h3,
 .card-top h3 {
-  font-size: 1.06rem;
+  font-size: 1.08rem;
 }
 
 .event-school,
@@ -615,7 +647,7 @@ p {
 .detail-subtitle {
   margin: 3px 0 0;
   color: var(--muted);
-  font-size: 0.86rem;
+  font-size: 0.875rem;
 }
 
 .event-date {
@@ -644,7 +676,7 @@ p {
 }
 
 .badge-row {
-  margin-top: 9px;
+  margin-top: 12px;
 }
 
 .badge {
@@ -655,7 +687,7 @@ p {
   border: 1px solid var(--line);
   border-radius: 999px;
   color: var(--muted-strong);
-  font-size: 0.76rem;
+  font-size: 0.875rem;
   font-weight: 800;
 }
 
@@ -688,24 +720,67 @@ p {
 
 .list-view {
   display: grid;
-  gap: 22px;
+  gap: 32px;
 }
 
 .tier-section {
   display: grid;
-  gap: 11px;
+  gap: 18px;
 }
 
 .tier-heading {
   margin: 0;
   color: var(--pink-soft);
-  font-size: 1.1rem;
+  font-size: 1.15rem;
 }
 
 .school-card {
   display: grid;
-  gap: 12px;
-  padding: 14px;
+  gap: 18px;
+  padding: 22px;
+}
+
+.school-summary-card {
+  display: grid;
+  gap: 18px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.school-summary-card h3 {
+  margin: 4px 0 0;
+  font-size: 1.45rem;
+  line-height: 1.18;
+}
+
+.summary-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.summary-facts span {
+  display: inline-flex;
+  min-height: 34px;
+  align-items: center;
+  padding: 0 11px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted-strong);
+  font-size: 0.875rem;
+  font-weight: 800;
+}
+
+.summary-link {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  justify-self: start;
+  color: var(--pink-soft);
+  font-size: 0.98rem;
+  font-weight: 900;
 }
 
 .pending-date-card {
@@ -720,7 +795,7 @@ p {
   border-radius: 8px;
   background: #302613;
   color: var(--gold);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 900;
 }
 
@@ -731,7 +806,7 @@ p {
 
 .pending-date-note span {
   color: var(--muted-strong);
-  font-size: 0.82rem;
+  font-size: 0.875rem;
   font-weight: 800;
 }
 
@@ -1307,27 +1382,30 @@ p {
   }
 
   .page-shell {
-    padding: 34px 28px 0;
+    padding: 42px 34px 0;
   }
 
-  .hero-section {
+  .home-intro {
     padding-top: 28px;
+    padding-bottom: 32px;
   }
 
-  .hero-copy h1 {
-    font-size: 3.35rem;
+  .home-intro h1 {
+    font-size: 2.55rem;
   }
 
   .search-panel {
-    padding: 20px;
+    padding: 30px;
   }
 
-  .view-toolbar {
+  .view-toolbar,
+  .search-actions {
     grid-template-columns: 1fr 260px;
     align-items: center;
   }
 
-  .stats-grid {
+  .stats-grid,
+  .stats-strip {
     gap: 14px;
   }
 
@@ -1356,11 +1434,13 @@ p {
     font-size: 0.78rem;
   }
 
-  .stats-grid article {
+  .stats-grid article,
+  .stats-strip article {
     padding: 18px;
   }
 
-  .stats-grid span {
+  .stats-grid span,
+  .stats-strip span {
     font-size: 2.55rem;
   }
 
@@ -1374,7 +1454,8 @@ p {
     height: 54px;
   }
 
-  .tier-list {
+  .tier-list,
+  .popular-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 

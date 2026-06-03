@@ -259,7 +259,6 @@
   }
 
   function setupHome() {
-    state.calendarMonth = firstEventMonth(state.schools);
     renderChips($("#tierChips"), state.filters.tiers.map((item) => item.value), "tier", (value) => tierLabel(value));
     renderChips($("#typeChips"), state.filters.school_types, "school_type");
     renderChips($("#directionChips"), state.filters.directions, "direction");
@@ -275,30 +274,7 @@
       state.query = "";
       searchInput.value = "";
       Object.values(state.selected).forEach((set) => set.clear());
-      state.calendarMonth = firstEventMonth(state.schools);
       renderHome();
-    });
-
-    $("#prevMonth").addEventListener("click", () => {
-      state.calendarMonth = addMonths(state.calendarMonth, -1);
-      renderHome();
-    });
-
-    $("#nextMonth").addEventListener("click", () => {
-      state.calendarMonth = addMonths(state.calendarMonth, 1);
-      renderHome();
-    });
-
-    $("#todayMonth").addEventListener("click", () => {
-      state.calendarMonth = firstEventMonth(getFilteredSchools());
-      renderHome();
-    });
-
-    $$(".segmented [data-view]").forEach((button) => {
-      button.addEventListener("click", () => {
-        state.view = button.dataset.view;
-        renderHome();
-      });
     });
 
     document.addEventListener("click", (event) => {
@@ -338,24 +314,50 @@
     renderChips($("#regionChips"), state.filters.regions, "region");
 
     const schools = getFilteredSchools();
-    const allEvents = deriveEvents(state.schools);
-    const uniqueSchools = new Set(state.schools.map((school) => school.school_name_cn)).size;
-
-    $("#schoolCount").textContent = uniqueSchools;
-    $("#majorCount").textContent = state.schools.length;
-    $("#eventCount").textContent = allEvents.length;
-    $("#resultTitle").textContent = state.view === "timeline" ? `校内考时间轴 · ${schools.length} 条` : `学校列表 · ${schools.length} 条`;
+    const schoolGroups = aggregateSchools(schools);
+    $("#resultTitle").textContent = `完整学校列表 · ${schoolGroups.length} 所`;
     renderActiveFilters();
-    renderCalendar(schools);
 
-    $("#timelineButton").classList.toggle("active", state.view === "timeline");
-    $("#listButton").classList.toggle("active", state.view === "list");
-    $("#timelineView").classList.toggle("hidden", state.view !== "timeline");
-    $("#listView").classList.toggle("hidden", state.view !== "list");
-
-    renderTimeline(schools);
-    renderSchoolList(schools);
+    renderPopularSchools();
+    renderSchoolList(schoolGroups);
     updateCompareBadge();
+  }
+
+  function aggregateSchools(schools) {
+    const map = new Map();
+    schools.forEach((school) => {
+      const key = school.school_name_cn;
+      if (!map.has(key)) {
+        map.set(key, {
+          school_name_cn: school.school_name_cn,
+          school_name_jp: school.school_name_jp,
+          school_type: school.school_type,
+          tier: school.tier,
+          region: school.region,
+          directions: new Set(),
+          faculties: new Set(),
+          majors: [],
+          firstId: school.id,
+          source: getSource(school)
+        });
+      }
+      const group = map.get(key);
+      group.directions.add(school.direction);
+      group.faculties.add(school.faculty);
+      group.majors.push(school);
+    });
+
+    return Array.from(map.values()).sort((a, b) => Number(a.tier) - Number(b.tier) || a.school_name_cn.localeCompare(b.school_name_cn, "zh-Hans-CN"));
+  }
+
+  function renderPopularSchools() {
+    const root = $("#popularSchools");
+    if (!root) return;
+    const popular = aggregateSchools(state.schools)
+      .filter((school) => Number(school.tier) === 1)
+      .slice(0, 10);
+
+    root.innerHTML = popular.map(renderSchoolSummaryCard).join("");
   }
 
   function addMonths(date, count) {
@@ -563,16 +565,15 @@
     `;
   }
 
-  function renderSchoolList(schools) {
+  function renderSchoolList(schoolGroups) {
     const list = $("#listView");
-    if (!schools.length) {
-      list.innerHTML = `<div class="empty-state">没有匹配的学校专业</div>`;
+    if (!schoolGroups.length) {
+      list.innerHTML = `<div class="empty-state">没有匹配的学校</div>`;
       return;
     }
 
-    const sorted = [...schools].sort((a, b) => Number(a.tier) - Number(b.tier) || a.school_name_cn.localeCompare(b.school_name_cn, "zh-Hans-CN"));
     const groups = new Map();
-    sorted.forEach((school) => {
+    schoolGroups.forEach((school) => {
       const key = tierLabel(school.tier);
       if (!groups.has(key)) groups.set(key, []);
       groups.get(key).push(school);
@@ -584,12 +585,30 @@
           <section class="tier-section">
             <h3 class="tier-heading">${escapeHtml(tier)} · ${items.length} 条</h3>
             <div class="tier-list">
-              ${items.map(renderSchoolCard).join("")}
+              ${items.map(renderSchoolSummaryCard).join("")}
             </div>
           </section>
         `
       )
       .join("");
+  }
+
+  function renderSchoolSummaryCard(school) {
+    return `
+      <article class="school-summary-card">
+        <div>
+          <p class="card-meta">${escapeHtml(school.school_name_jp)} · ${escapeHtml(school.school_type)} · ${escapeHtml(school.region)}</p>
+          <h3>${escapeHtml(school.school_name_cn)}</h3>
+        </div>
+        <div class="summary-facts">
+          <span>${escapeHtml(tierLabel(school.tier))}</span>
+          <span>${school.faculties.size} 学部</span>
+          <span>${school.majors.length} 专业</span>
+          <span>${escapeHtml(Array.from(school.directions).join(" / "))}</span>
+        </div>
+        <a class="summary-link" href="./school.html?id=${encodeURIComponent(school.firstId)}">查看详情 →</a>
+      </article>
+    `;
   }
 
   function renderSchoolCard(school) {
@@ -725,7 +744,7 @@
     return `
       <a class="official-time-cta" href="${escapeHtml(link.url)}" target="_blank" rel="noreferrer">
         <span>官方日期未公布</span>
-        <strong>📎 查看 ${escapeHtml(school.school_name_cn)} 2026 年度官方募集要项</strong>
+        <strong>📎 查看 ${escapeHtml(school.school_name_cn)} 2026 年度官方募集要项 PDF</strong>
       </a>
     `;
   }
