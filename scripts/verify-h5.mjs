@@ -35,6 +35,7 @@ const home = {
   calendarTitle: await page.locator("#calendarTitle").textContent(),
   calendarEvents: await page.locator(".calendar-event").count(),
   eventCards: await page.locator(".event-card").count(),
+  pendingTimelineCards: await page.locator(".pending-date-card").count(),
   h1: await page.locator("h1").first().textContent()
 };
 await page.screenshot({ path: "/private/tmp/candy-h5-home-mobile.png", fullPage: true });
@@ -53,6 +54,7 @@ const detail = {
   title: await page.title(),
   schoolHeading: await page.locator(".detail-title-row h1").textContent(),
   timeCards: await page.locator(".time-card").count(),
+  officialCta: await page.locator(".official-time-cta").count(),
   sourceLinks: await page.locator(".source-links a").count(),
   sourceSnippets: await page.locator(".source-snippets blockquote").count()
 };

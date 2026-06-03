@@ -708,6 +708,33 @@ p {
   padding: 14px;
 }
 
+.pending-date-card {
+  border-color: #6c5522;
+}
+
+.pending-date-note {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: #302613;
+  color: var(--gold);
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+.pending-date-note strong,
+.pending-date-note span {
+  display: block;
+}
+
+.pending-date-note span {
+  color: var(--muted-strong);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
 .date-row span {
   display: inline-flex;
   min-height: 30px;
@@ -930,6 +957,11 @@ p {
   background: #342712;
 }
 
+.time-card.pending {
+  border-color: #6c5522;
+  background: #302613;
+}
+
 .time-card span {
   display: block;
   color: var(--muted);
@@ -944,12 +976,36 @@ p {
   font-size: 1.08rem;
 }
 
+.time-card.pending strong {
+  color: var(--gold);
+}
+
 .time-card em {
   display: block;
   margin-top: 6px;
   color: var(--gold);
   font-style: normal;
   font-weight: 900;
+}
+
+.official-time-cta {
+  display: grid;
+  gap: 7px;
+  padding: 15px;
+  border: 1px solid var(--pink);
+  border-radius: 8px;
+  background: var(--pink);
+  color: var(--bg);
+}
+
+.official-time-cta span {
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.official-time-cta strong {
+  font-size: 1rem;
+  line-height: 1.35;
 }
 
 .tabs {
@@ -1324,6 +1380,10 @@ p {
 
   .time-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .official-time-cta {
+    grid-column: 1 / -1;
   }
 
   .info-grid {

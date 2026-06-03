@@ -4,6 +4,8 @@
   const SOURCES_URL = "./data/admission-sources.json";
   const SNAPSHOTS_URL = "./data/source-snapshots.json";
   const COMPARE_KEY = "candyCompareIds";
+  const DATE_PENDING_TEXT = "待官方公布，请查看右侧官方募集要项链接";
+  const DATE_NOTICE_TEXT = "时间以官方公告为准";
   const today = startOfDay(new Date());
   const page = document.body.dataset.page;
 
@@ -79,13 +81,13 @@
 
   function formatDate(value) {
     const date = parseDate(value);
-    if (!date) return "待确认";
+    if (!date) return DATE_PENDING_TEXT;
     return `${date.getMonth() + 1}月${date.getDate()}日`;
   }
 
   function formatFullDate(value) {
     const date = parseDate(value);
-    if (!date) return "待确认";
+    if (!date) return DATE_PENDING_TEXT;
     return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日`;
   }
 
@@ -101,7 +103,7 @@
 
   function countdownText(type, date) {
     const diff = daysUntil(date);
-    if (diff === null) return `${type}待确认`;
+    if (diff === null) return "";
     if (diff < 0) return `${type}已过`;
     if (diff === 0) return `${type}就在今天`;
     return `距离${type}还有 ${diff} 天`;
@@ -160,6 +162,10 @@
       )
       .filter((event) => event.date)
       .sort((a, b) => parseDate(a.date) - parseDate(b.date));
+  }
+
+  function hasAnyDate(school) {
+    return Boolean(school.application_window_start || school.application_window_end || school.exam_date || school.result_date);
   }
 
   function getCompareIds() {
@@ -448,7 +454,7 @@
     const events = deriveEvents(state.schools).filter((event) => ids.has(event.schoolId) && parseDate(event.date) >= monthStart);
 
     if (!events.length) {
-      timeline.innerHTML = `<div class="empty-state">当前筛选下没有未来节点</div>`;
+      timeline.innerHTML = renderPendingTimelineByTier(schools);
       return;
     }
 
@@ -475,6 +481,56 @@
         `
       )
       .join("");
+  }
+
+  function renderPendingTimelineByTier(schools) {
+    if (!schools.length) return `<div class="empty-state">没有匹配的学校专业</div>`;
+
+    const sorted = [...schools].sort((a, b) => Number(a.tier) - Number(b.tier) || a.school_name_cn.localeCompare(b.school_name_cn, "zh-Hans-CN"));
+    const groups = new Map();
+    sorted.forEach((school) => {
+      const key = tierLabel(school.tier);
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(school);
+    });
+
+    return Array.from(groups.entries())
+      .map(
+        ([tier, items]) => `
+          <section class="tier-section">
+            <h3 class="tier-heading">${escapeHtml(tier)} · 待官方日期</h3>
+            <div class="tier-list">
+              ${items.map(renderPendingTimelineCard).join("")}
+            </div>
+          </section>
+        `
+      )
+      .join("");
+  }
+
+  function renderPendingTimelineCard(school) {
+    const source = getSource(school);
+    return `
+      <a class="school-card pending-date-card" href="./school.html?id=${encodeURIComponent(school.id)}">
+        <div class="card-top">
+          <div>
+            <h3>${escapeHtml(school.school_name_cn)}</h3>
+            <p class="card-meta">${escapeHtml(school.school_name_jp)} · ${escapeHtml(school.faculty)} · ${escapeHtml(school.major)}</p>
+          </div>
+          <span class="school-logo">${escapeHtml(schoolInitial(school))}</span>
+        </div>
+        <div class="badge-row">
+          <span class="badge">${escapeHtml(tierLabel(school.tier))}</span>
+          <span class="badge">${escapeHtml(school.school_type)}</span>
+          <span class="badge">${escapeHtml(school.direction)}</span>
+          <span class="badge source-badge">${escapeHtml(source ? sourceLabel(source.status) : "来源待补")}</span>
+        </div>
+        <p class="pending-date-note">
+          <strong>${escapeHtml(DATE_NOTICE_TEXT)}</strong>
+          <span>${escapeHtml(DATE_PENDING_TEXT)}</span>
+        </p>
+      </a>
+    `;
   }
 
   function renderEventCard(event) {
@@ -555,9 +611,15 @@
           <span class="badge source-badge">${escapeHtml(source ? sourceLabel(source.status) : "来源待补")}</span>
         </div>
         <div class="date-row">
-          <span><strong>出愿</strong> ${escapeHtml(formatDate(school.application_window_end))}</span>
-          <span><strong>校内考</strong> ${escapeHtml(formatDate(school.exam_date))}</span>
-          <span><strong>形式</strong> ${escapeHtml((school.exam_form || []).join(" / "))}</span>
+          ${
+            hasAnyDate(school)
+              ? `
+                <span><strong>出愿</strong> ${escapeHtml(formatDate(school.application_window_end))}</span>
+                <span><strong>校内考</strong> ${escapeHtml(formatDate(school.exam_date))}</span>
+                <span><strong>形式</strong> ${escapeHtml((school.exam_form || []).join(" / "))}</span>
+              `
+              : `<span><strong>日期</strong> ${escapeHtml(DATE_PENDING_TEXT)}</span>`
+          }
         </div>
         <p class="card-review">${escapeHtml(school.exam_tips || school.candy_review)}</p>
         <div class="action-row">
@@ -610,9 +672,10 @@
       </section>
 
       <section class="time-grid">
-        ${renderTimeCard("出愿时间窗口", `${formatFullDate(school.application_window_start)} - ${formatFullDate(school.application_window_end)}`, "出愿", school.application_window_end, nextEvent)}
+        ${renderTimeCard("出愿时间窗口", formatApplicationWindow(school), "出愿", school.application_window_end, nextEvent)}
         ${renderTimeCard("校内考日期", formatFullDate(school.exam_date), "校内考", school.exam_date, nextEvent)}
         ${renderTimeCard("合格发表日", formatFullDate(school.result_date), "合格发表", school.result_date, nextEvent)}
+        ${!hasAnyDate(school) ? renderOfficialRequirementCta(school, source) : ""}
       </section>
 
       <nav class="tabs" aria-label="详情页标签">
@@ -640,6 +703,30 @@
         <button class="secondary-button" type="button" data-add-compare="${escapeHtml(school.id)}">➕ 加入对比</button>
         <button class="primary-button" type="button" data-open-wechat>📱 微信咨询</button>
       </div>
+    `;
+  }
+
+  function formatApplicationWindow(school) {
+    if (!school.application_window_start && !school.application_window_end) return DATE_PENDING_TEXT;
+    return `${formatFullDate(school.application_window_start)} - ${formatFullDate(school.application_window_end)}`;
+  }
+
+  function getOfficialRequirementLink(source) {
+    if (!source?.links?.length) return null;
+    return (
+      source.links.find((link) => /pdf/i.test(link.url) || /pdf|募集要項|入試要項|要项/i.test(link.label)) ||
+      source.links[0]
+    );
+  }
+
+  function renderOfficialRequirementCta(school, source) {
+    const link = getOfficialRequirementLink(source);
+    if (!link) return "";
+    return `
+      <a class="official-time-cta" href="${escapeHtml(link.url)}" target="_blank" rel="noreferrer">
+        <span>官方日期未公布</span>
+        <strong>📎 查看 ${escapeHtml(school.school_name_cn)} 2026 年度官方募集要项</strong>
+      </a>
     `;
   }
 
@@ -722,11 +809,12 @@
 
   function renderTimeCard(title, value, eventType, eventDate, nextEvent) {
     const isNext = nextEvent && nextEvent.type === eventType;
+    const countdown = countdownText(eventType, eventDate);
     return `
-      <article class="time-card ${isNext ? "next" : ""}">
+      <article class="time-card ${isNext ? "next" : ""} ${eventDate ? "" : "pending"}">
         <span>${escapeHtml(title)}</span>
         <strong>${escapeHtml(value)}</strong>
-        <em>${escapeHtml(countdownText(eventType, eventDate))}</em>
+        ${countdown ? `<em>${escapeHtml(countdown)}</em>` : ""}
       </article>
     `;
   }

@@ -10,26 +10,48 @@
     "faculty": "工学部",
     "major": "機械工学科",
     "major_category": "理工-机械",
-    "subject_tags": ["物化组合", "数学2", "理工"],
-    "application_window_start": "2026-11-18",
-    "application_window_end": "2026-12-05",
-    "exam_date": "2027-02-25",
-    "result_date": "2027-03-10",
-    "exam_form": ["笔试", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单"],
+    "subject_tags": [
+      "物化组合",
+      "数学2",
+      "理工"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "笔试",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单"
+    ],
     "candy_review": "东大工学部机械是第一档冲刺目标，校内考和材料都会看学术扎实度。适合 EJU 理科成绩强、数学物理基础稳定，并且能讲清楚研究兴趣的学生。",
-    "eju_subjects_required": ["日语", "数学2", "物理", "化学"],
+    "eju_subjects_required": [
+      "日语",
+      "数学2",
+      "物理",
+      "化学"
+    ],
     "eju_japanese_min": 340,
     "english_required": true,
     "english_min": "建议 TOEFL 90+ / IELTS 6.5+",
     "exam_subjects": "数学、物理、英语、面试",
     "exam_description": "重点确认基础理科能力、专业理解和志望理由。具体科目以当年度募集要项为准。",
     "exam_tips": "数学物理不要只刷 EJU，建议补大学初年级基础表达。",
-    "candy_tags": ["竞争激烈", "学术浓", "冲刺校"],
+    "candy_tags": [
+      "竞争激烈",
+      "学术浓",
+      "冲刺校"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.u-tokyo.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -43,26 +65,46 @@
     "faculty": "文学部",
     "major": "人文学科",
     "major_category": "人文-文学",
-    "subject_tags": ["日语强", "文综", "小论文"],
-    "application_window_start": "2026-11-18",
-    "application_window_end": "2026-12-05",
-    "exam_date": "2027-02-24",
-    "result_date": "2027-03-10",
-    "exam_form": ["小论文", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单"],
+    "subject_tags": [
+      "日语强",
+      "文综",
+      "小论文"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "小论文",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单"
+    ],
     "candy_review": "东大文学部更看重日语阅读、论述能力和问题意识。不是只看分数，志望理由里要能说明为什么选择该领域，以及自己读过什么。",
-    "eju_subjects_required": ["日语", "综合科目", "数学1"],
+    "eju_subjects_required": [
+      "日语",
+      "综合科目",
+      "数学1"
+    ],
     "eju_japanese_min": 360,
     "english_required": false,
     "english_min": "有英语成绩更稳",
     "exam_subjects": "小论文、面试",
     "exam_description": "通常会围绕阅读理解、表达能力和专业兴趣做确认。",
     "exam_tips": "提前准备日文长文精读和 800-1200 字论述训练。",
-    "candy_tags": ["日语要求高", "论述重", "冲刺校"],
+    "candy_tags": [
+      "日语要求高",
+      "论述重",
+      "冲刺校"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.u-tokyo.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -76,26 +118,47 @@
     "faculty": "経済学部",
     "major": "経済学科",
     "major_category": "商科-经济",
-    "subject_tags": ["文综", "数学1", "高分竞争"],
-    "application_window_start": "2026-11-18",
-    "application_window_end": "2026-12-05",
-    "exam_date": "2027-02-26",
-    "result_date": "2027-03-10",
-    "exam_form": ["笔试", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单"],
+    "subject_tags": [
+      "文综",
+      "数学1",
+      "高分竞争"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "笔试",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单"
+    ],
     "candy_review": "东大经济适合日语、数学和逻辑表达都强的学生。面试中很容易被追问经济学兴趣、社会问题观察和未来研究方向。",
-    "eju_subjects_required": ["日语", "综合科目", "数学1"],
+    "eju_subjects_required": [
+      "日语",
+      "综合科目",
+      "数学1"
+    ],
     "eju_japanese_min": 350,
     "english_required": true,
     "english_min": "建议 TOEFL 85+ / IELTS 6.5+",
     "exam_subjects": "数学、小论文或综合问题、面试",
     "exam_description": "可能通过笔试和面试综合判断数学基础、表达能力和专业动机。",
     "exam_tips": "准备经济新闻日语表达，能把兴趣讲成具体问题。",
-    "candy_tags": ["数学要稳", "面试追问", "冲刺校"],
+    "candy_tags": [
+      "数学要稳",
+      "面试追问",
+      "冲刺校"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.u-tokyo.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -109,26 +172,48 @@
     "faculty": "工学部",
     "major": "情報学科",
     "major_category": "理工-信息",
-    "subject_tags": ["数学2", "物理", "信息"],
-    "application_window_start": "2026-10-20",
-    "application_window_end": "2026-11-07",
-    "exam_date": "2027-02-24",
-    "result_date": "2027-03-09",
-    "exam_form": ["笔试", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单"],
+    "subject_tags": [
+      "数学2",
+      "物理",
+      "信息"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "笔试",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单"
+    ],
     "candy_review": "京大工学部适合基础学科能力很强、愿意长期走研究路线的学生。信息方向竞争明显，EJU 高分只是入场券。",
-    "eju_subjects_required": ["日语", "数学2", "物理", "化学"],
+    "eju_subjects_required": [
+      "日语",
+      "数学2",
+      "物理",
+      "化学"
+    ],
     "eju_japanese_min": 330,
     "english_required": true,
     "english_min": "建议 TOEFL 85+",
     "exam_subjects": "数学、理科、英语、面试",
     "exam_description": "重视基础理论、问题解决和志望理由的连贯性。",
     "exam_tips": "准备算法、数学证明和物理基础的日文说明。",
-    "candy_tags": ["研究向", "基础强", "冲刺校"],
+    "candy_tags": [
+      "研究向",
+      "基础强",
+      "冲刺校"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.kyoto-u.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -142,26 +227,46 @@
     "faculty": "文学部",
     "major": "人文学科",
     "major_category": "人文-综合",
-    "subject_tags": ["日语强", "文综", "面试"],
-    "application_window_start": "2026-10-20",
-    "application_window_end": "2026-11-07",
-    "exam_date": "2027-02-23",
-    "result_date": "2027-03-09",
-    "exam_form": ["小论文", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单"],
+    "subject_tags": [
+      "日语强",
+      "文综",
+      "面试"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "小论文",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单"
+    ],
     "candy_review": "京大文学部很看学生是否真正有阅读积累和研究兴趣。适合能持续读原典、日语表达有深度的学生。",
-    "eju_subjects_required": ["日语", "综合科目", "数学1"],
+    "eju_subjects_required": [
+      "日语",
+      "综合科目",
+      "数学1"
+    ],
     "eju_japanese_min": 350,
     "english_required": false,
     "english_min": "建议提交可用英语成绩",
     "exam_subjects": "小论文、面试",
     "exam_description": "通过论述和面试确认语言能力、学术兴趣和适配度。",
     "exam_tips": "志望理由不要写泛文学爱好，要落到具体领域和阅读文本。",
-    "candy_tags": ["阅读积累", "日语强", "冲刺校"],
+    "candy_tags": [
+      "阅读积累",
+      "日语强",
+      "冲刺校"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.kyoto-u.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -175,26 +280,47 @@
     "faculty": "経済学部",
     "major": "経済経営学科",
     "major_category": "商科-经济经营",
-    "subject_tags": ["文综", "数学1", "经济"],
-    "application_window_start": "2026-10-20",
-    "application_window_end": "2026-11-07",
-    "exam_date": "2027-02-25",
-    "result_date": "2027-03-09",
-    "exam_form": ["笔试", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单"],
+    "subject_tags": [
+      "文综",
+      "数学1",
+      "经济"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "笔试",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单"
+    ],
     "candy_review": "京大经济经营方向重视学生对经济社会问题的理解。适合分数强、表达沉稳，并且能把兴趣转成研究问题的学生。",
-    "eju_subjects_required": ["日语", "综合科目", "数学1"],
+    "eju_subjects_required": [
+      "日语",
+      "综合科目",
+      "数学1"
+    ],
     "eju_japanese_min": 340,
     "english_required": true,
     "english_min": "建议 TOEFL 80+",
     "exam_subjects": "数学、综合问题、面试",
     "exam_description": "会综合判断数学基础、日文表达和专业动机。",
     "exam_tips": "准备宏微观基础概念和日本经济话题。",
-    "candy_tags": ["经营经济", "表达重要", "冲刺校"],
+    "candy_tags": [
+      "经营经济",
+      "表达重要",
+      "冲刺校"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.kyoto-u.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -208,26 +334,48 @@
     "faculty": "工学院",
     "major": "システム制御系",
     "major_category": "理工-系统控制",
-    "subject_tags": ["数学2", "物理", "工程"],
-    "application_window_start": "2026-09-01",
-    "application_window_end": "2026-09-16",
-    "exam_date": "2026-10-22",
-    "result_date": "2026-11-05",
-    "exam_form": ["笔试", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单"],
+    "subject_tags": [
+      "数学2",
+      "物理",
+      "工程"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "笔试",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单"
+    ],
     "candy_review": "东京科学大学工学院对理工基础和问题解决要求高，适合数学物理强、目标明确的学生。校内考准备不能只依赖 EJU。",
-    "eju_subjects_required": ["日语", "数学2", "物理", "化学"],
+    "eju_subjects_required": [
+      "日语",
+      "数学2",
+      "物理",
+      "化学"
+    ],
     "eju_japanese_min": 320,
     "english_required": true,
     "english_min": "建议 TOEFL 80+",
     "exam_subjects": "数学、物理、面试",
     "exam_description": "重视理工基础、专业理解和英语材料完整度。",
     "exam_tips": "系统控制要能讲清楚数学、物理和工程应用的连接。",
-    "candy_tags": ["理工强校", "笔试硬", "冲刺校"],
+    "candy_tags": [
+      "理工强校",
+      "笔试硬",
+      "冲刺校"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.isct.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -241,26 +389,48 @@
     "faculty": "生命理工学院",
     "major": "生命理工学系",
     "major_category": "理工-生命科学",
-    "subject_tags": ["生物", "化学", "理科"],
-    "application_window_start": "2026-09-01",
-    "application_window_end": "2026-09-16",
-    "exam_date": "2026-10-23",
-    "result_date": "2026-11-05",
-    "exam_form": ["笔试", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单"],
+    "subject_tags": [
+      "生物",
+      "化学",
+      "理科"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "笔试",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单"
+    ],
     "candy_review": "生命理工方向适合化学、生物基础扎实，且能把兴趣说到实验或研究主题上的学生。面试里常见对专业理解的追问。",
-    "eju_subjects_required": ["日语", "数学2", "生物", "化学"],
+    "eju_subjects_required": [
+      "日语",
+      "数学2",
+      "生物",
+      "化学"
+    ],
     "eju_japanese_min": 320,
     "english_required": true,
     "english_min": "建议 TOEFL 80+",
     "exam_subjects": "生物、化学、数学、面试",
     "exam_description": "围绕生命科学基础、实验理解和志望理由进行判断。",
     "exam_tips": "准备细胞、生化和实验设计的日文表达。",
-    "candy_tags": ["生命科学", "实验思维", "冲刺校"],
+    "candy_tags": [
+      "生命科学",
+      "实验思维",
+      "冲刺校"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.isct.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -274,26 +444,47 @@
     "faculty": "理学院",
     "major": "数学系",
     "major_category": "理科-数学",
-    "subject_tags": ["数学2", "证明", "基础理学"],
-    "application_window_start": "2026-09-01",
-    "application_window_end": "2026-09-16",
-    "exam_date": "2026-10-24",
-    "result_date": "2026-11-05",
-    "exam_form": ["笔试", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单"],
+    "subject_tags": [
+      "数学2",
+      "证明",
+      "基础理学"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "笔试",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单"
+    ],
     "candy_review": "数学系适合真正喜欢抽象思考和证明的学生。校内考不只是计算速度，更会看逻辑表达和基础概念清晰度。",
-    "eju_subjects_required": ["日语", "数学2", "物理", "化学"],
+    "eju_subjects_required": [
+      "日语",
+      "数学2",
+      "物理",
+      "化学"
+    ],
     "eju_japanese_min": 310,
     "english_required": false,
     "english_min": "有英语成绩更稳",
     "exam_subjects": "数学、面试",
     "exam_description": "以数学基础、证明思路和志望理由为重点。",
     "exam_tips": "多练证明题口述，把思路讲清楚。",
-    "candy_tags": ["基础理学", "数学强", "冲刺校"],
+    "candy_tags": [
+      "基础理学",
+      "数学强",
+      "冲刺校"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.isct.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -307,26 +498,48 @@
     "faculty": "工学部",
     "major": "応用理工学科",
     "major_category": "理工-应用理工",
-    "subject_tags": ["数学2", "物理", "化学"],
-    "application_window_start": "2026-11-04",
-    "application_window_end": "2026-11-21",
-    "exam_date": "2027-02-18",
-    "result_date": "2027-03-06",
-    "exam_form": ["笔试", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单"],
+    "subject_tags": [
+      "数学2",
+      "物理",
+      "化学"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "笔试",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单"
+    ],
     "candy_review": "阪大工学部是关西理工强校，适合想冲旧帝但不只盯东京圈的学生。专业基础、英语和材料完整度都要稳。",
-    "eju_subjects_required": ["日语", "数学2", "物理", "化学"],
+    "eju_subjects_required": [
+      "日语",
+      "数学2",
+      "物理",
+      "化学"
+    ],
     "eju_japanese_min": 320,
     "english_required": true,
     "english_min": "建议 TOEFL 80+",
     "exam_subjects": "数学、理科、面试",
     "exam_description": "综合确认理工基础、志望理由和适应度。",
     "exam_tips": "提前按学科整理研究室和课程兴趣。",
-    "candy_tags": ["旧帝大", "关西", "理工强"],
+    "candy_tags": [
+      "旧帝大",
+      "关西",
+      "理工强"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.osaka-u.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -340,26 +553,46 @@
     "faculty": "文学部",
     "major": "人文学科",
     "major_category": "人文-综合",
-    "subject_tags": ["日语强", "小论文", "文综"],
-    "application_window_start": "2026-11-04",
-    "application_window_end": "2026-11-21",
-    "exam_date": "2027-02-17",
-    "result_date": "2027-03-06",
-    "exam_form": ["小论文", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单"],
+    "subject_tags": [
+      "日语强",
+      "小论文",
+      "文综"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "小论文",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单"
+    ],
     "candy_review": "阪大文学部适合日语表达扎实、兴趣不空泛的学生。面试中需要把阅读积累和未来学习计划讲清楚。",
-    "eju_subjects_required": ["日语", "综合科目", "数学1"],
+    "eju_subjects_required": [
+      "日语",
+      "综合科目",
+      "数学1"
+    ],
     "eju_japanese_min": 340,
     "english_required": false,
     "english_min": "可提交英语成绩加分",
     "exam_subjects": "小论文、面试",
     "exam_description": "围绕语言表达、问题意识和专业适配进行确认。",
     "exam_tips": "准备一份日文阅读书单和每本书的核心观点。",
-    "candy_tags": ["旧帝大", "日语强", "关西"],
+    "candy_tags": [
+      "旧帝大",
+      "日语强",
+      "关西"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.osaka-u.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -373,26 +606,47 @@
     "faculty": "経済学部",
     "major": "経済・経営学科",
     "major_category": "商科-经济经营",
-    "subject_tags": ["数学1", "文综", "经济"],
-    "application_window_start": "2026-11-04",
-    "application_window_end": "2026-11-21",
-    "exam_date": "2027-02-19",
-    "result_date": "2027-03-06",
-    "exam_form": ["笔试", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单"],
+    "subject_tags": [
+      "数学1",
+      "文综",
+      "经济"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "笔试",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单"
+    ],
     "candy_review": "阪大经济经营对数学、日语表达和志望理由都有要求。适合想走旧帝商科路线、但愿意把关西作为主目标的学生。",
-    "eju_subjects_required": ["日语", "综合科目", "数学1"],
+    "eju_subjects_required": [
+      "日语",
+      "综合科目",
+      "数学1"
+    ],
     "eju_japanese_min": 330,
     "english_required": true,
     "english_min": "建议 TOEFL 75+",
     "exam_subjects": "数学、综合问题、面试",
     "exam_description": "确认基础数学、经济兴趣和学习计划。",
     "exam_tips": "把高频经济概念整理成日文问答。",
-    "candy_tags": ["旧帝大", "商科", "关西"],
+    "candy_tags": [
+      "旧帝大",
+      "商科",
+      "关西"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.osaka-u.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -406,26 +660,47 @@
     "faculty": "経済学部",
     "major": "経済学科",
     "major_category": "商科-经济",
-    "subject_tags": ["数学1", "文综", "小论文"],
-    "application_window_start": "2026-09-24",
-    "application_window_end": "2026-10-10",
-    "exam_date": "2026-11-15",
-    "result_date": "2026-12-01",
-    "exam_form": ["小论文", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单"],
+    "subject_tags": [
+      "数学1",
+      "文综",
+      "小论文"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "小论文",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单"
+    ],
     "candy_review": "一桥经济是文商科冲刺核心校，适合数学和日语论述都稳定的学生。材料里要体现对社会经济问题的长期关注。",
-    "eju_subjects_required": ["日语", "综合科目", "数学1"],
+    "eju_subjects_required": [
+      "日语",
+      "综合科目",
+      "数学1"
+    ],
     "eju_japanese_min": 350,
     "english_required": true,
     "english_min": "建议 TOEFL 80+",
     "exam_subjects": "小论文、面试",
     "exam_description": "重视日文论述、逻辑结构和经济学兴趣。",
     "exam_tips": "小论文要练结构，不要堆观点。",
-    "candy_tags": ["文商强校", "小论文", "冲刺校"],
+    "candy_tags": [
+      "文商强校",
+      "小论文",
+      "冲刺校"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.hit-u.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -439,26 +714,47 @@
     "faculty": "商学部",
     "major": "商学科",
     "major_category": "商科-经营",
-    "subject_tags": ["数学1", "文综", "经营"],
-    "application_window_start": "2026-09-24",
-    "application_window_end": "2026-10-10",
-    "exam_date": "2026-11-16",
-    "result_date": "2026-12-01",
-    "exam_form": ["小论文", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单"],
+    "subject_tags": [
+      "数学1",
+      "文综",
+      "经营"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "小论文",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单"
+    ],
     "candy_review": "一桥商学部适合对经营、会计、金融或市场有明确兴趣的学生。面试里很看叙事是否真实，别写模板化商科理由。",
-    "eju_subjects_required": ["日语", "综合科目", "数学1"],
+    "eju_subjects_required": [
+      "日语",
+      "综合科目",
+      "数学1"
+    ],
     "eju_japanese_min": 350,
     "english_required": true,
     "english_min": "建议 TOEFL 80+",
     "exam_subjects": "小论文、面试",
     "exam_description": "围绕经营兴趣、社会观察和学习计划进行确认。",
     "exam_tips": "准备企业案例，不要只说想进大公司。",
-    "candy_tags": ["商科强", "面试重", "冲刺校"],
+    "candy_tags": [
+      "商科强",
+      "面试重",
+      "冲刺校"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.hit-u.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -472,26 +768,46 @@
     "faculty": "社会学部",
     "major": "社会学科",
     "major_category": "社科-社会学",
-    "subject_tags": ["日语强", "文综", "社会议题"],
-    "application_window_start": "2026-09-24",
-    "application_window_end": "2026-10-10",
-    "exam_date": "2026-11-17",
-    "result_date": "2026-12-01",
-    "exam_form": ["小论文", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单"],
+    "subject_tags": [
+      "日语强",
+      "文综",
+      "社会议题"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "小论文",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单"
+    ],
     "candy_review": "社会学部适合对社会议题有持续观察的学生。优势不一定来自刷题，而是能否把经历、阅读和问题意识串起来。",
-    "eju_subjects_required": ["日语", "综合科目", "数学1"],
+    "eju_subjects_required": [
+      "日语",
+      "综合科目",
+      "数学1"
+    ],
     "eju_japanese_min": 350,
     "english_required": false,
     "english_min": "有英语成绩更稳",
     "exam_subjects": "小论文、面试",
     "exam_description": "重点看社会议题理解、论述能力和志望理由。",
     "exam_tips": "准备 2-3 个可深入讨论的社会问题。",
-    "candy_tags": ["社科", "问题意识", "冲刺校"],
+    "candy_tags": [
+      "社科",
+      "问题意识",
+      "冲刺校"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.hit-u.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -505,26 +821,49 @@
     "faculty": "先進理工学部",
     "major": "応用化学科",
     "major_category": "理工-化学",
-    "subject_tags": ["化学", "数学2", "理科"],
-    "application_window_start": "2026-08-20",
-    "application_window_end": "2026-09-08",
-    "exam_date": "2026-10-12",
-    "result_date": "2026-11-01",
-    "exam_form": ["笔试", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单", "财务证明"],
+    "subject_tags": [
+      "化学",
+      "数学2",
+      "理科"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "笔试",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单",
+      "财务证明"
+    ],
     "candy_review": "早大先进理工适合想冲顶尖私立理工、英语也不错的学生。私立校节奏快，材料和出愿细节不能拖。",
-    "eju_subjects_required": ["日语", "数学2", "物理", "化学"],
+    "eju_subjects_required": [
+      "日语",
+      "数学2",
+      "物理",
+      "化学"
+    ],
     "eju_japanese_min": 320,
     "english_required": true,
     "english_min": "建议 TOEFL 80+",
     "exam_subjects": "数学、理科、面试",
     "exam_description": "根据学科确认理科基础和志望理由。",
     "exam_tips": "化学方向要准备有机、无机、物化基础的日文表述。",
-    "candy_tags": ["私立顶尖", "英语重要", "节奏快"],
+    "candy_tags": [
+      "私立顶尖",
+      "英语重要",
+      "节奏快"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.waseda.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -538,26 +877,48 @@
     "faculty": "商学部",
     "major": "商学科",
     "major_category": "商科-经营",
-    "subject_tags": ["文综", "数学1", "英语"],
-    "application_window_start": "2026-08-20",
-    "application_window_end": "2026-09-08",
-    "exam_date": "2026-10-13",
-    "result_date": "2026-11-01",
-    "exam_form": ["小论文", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单", "财务证明"],
+    "subject_tags": [
+      "文综",
+      "数学1",
+      "英语"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "小论文",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单",
+      "财务证明"
+    ],
     "candy_review": "早大商学部知名度高、竞争集中。适合 EJU 文科高分，且能把商业兴趣讲得具体的学生。",
-    "eju_subjects_required": ["日语", "综合科目", "数学1"],
+    "eju_subjects_required": [
+      "日语",
+      "综合科目",
+      "数学1"
+    ],
     "eju_japanese_min": 340,
     "english_required": true,
     "english_min": "建议 TOEFL 80+",
     "exam_subjects": "小论文、面试",
     "exam_description": "重视志望理由、表达能力和英语成绩完整度。",
     "exam_tips": "准备经营、市场、金融方向的真实案例。",
-    "candy_tags": ["热门私立", "商科", "竞争集中"],
+    "candy_tags": [
+      "热门私立",
+      "商科",
+      "竞争集中"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.waseda.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -571,26 +932,48 @@
     "faculty": "政治経済学部",
     "major": "経済学科",
     "major_category": "商科-政治经济",
-    "subject_tags": ["文综", "数学1", "英语"],
-    "application_window_start": "2026-08-20",
-    "application_window_end": "2026-09-08",
-    "exam_date": "2026-10-14",
-    "result_date": "2026-11-01",
-    "exam_form": ["小论文", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单", "财务证明"],
+    "subject_tags": [
+      "文综",
+      "数学1",
+      "英语"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "小论文",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单",
+      "财务证明"
+    ],
     "candy_review": "政经学部是早大招牌方向，适合日语、英语和社会议题表达都强的学生。志望理由不能停在学校名气。",
-    "eju_subjects_required": ["日语", "综合科目", "数学1"],
+    "eju_subjects_required": [
+      "日语",
+      "综合科目",
+      "数学1"
+    ],
     "eju_japanese_min": 350,
     "english_required": true,
     "english_min": "建议 TOEFL 85+",
     "exam_subjects": "小论文、面试",
     "exam_description": "关注政治经济议题理解、逻辑表达和学习计划。",
     "exam_tips": "准备日本政治经济新闻和国际议题日语表达。",
-    "candy_tags": ["招牌学部", "英语强", "冲刺校"],
+    "candy_tags": [
+      "招牌学部",
+      "英语强",
+      "冲刺校"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.waseda.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -604,26 +987,49 @@
     "faculty": "理工学部",
     "major": "機械工学科",
     "major_category": "理工-机械",
-    "subject_tags": ["数学2", "物理", "英语"],
-    "application_window_start": "2026-08-25",
-    "application_window_end": "2026-09-12",
-    "exam_date": "2026-10-18",
-    "result_date": "2026-11-07",
-    "exam_form": ["笔试", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单", "财务证明"],
+    "subject_tags": [
+      "数学2",
+      "物理",
+      "英语"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "笔试",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单",
+      "财务证明"
+    ],
     "candy_review": "庆应理工适合学术基础和英语成绩都稳的学生。私立顶尖校对材料细节要求高，准备周期要前置。",
-    "eju_subjects_required": ["日语", "数学2", "物理", "化学"],
+    "eju_subjects_required": [
+      "日语",
+      "数学2",
+      "物理",
+      "化学"
+    ],
     "eju_japanese_min": 320,
     "english_required": true,
     "english_min": "建议 TOEFL 80+",
     "exam_subjects": "数学、理科、面试",
     "exam_description": "确认理工基础、专业动机和英语成绩。",
     "exam_tips": "机械方向重点准备力学、电磁和数学基础。",
-    "candy_tags": ["私立顶尖", "理工", "英语重要"],
+    "candy_tags": [
+      "私立顶尖",
+      "理工",
+      "英语重要"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.keio.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -637,26 +1043,48 @@
     "faculty": "経済学部",
     "major": "経済学科",
     "major_category": "商科-经济",
-    "subject_tags": ["数学1", "文综", "英语"],
-    "application_window_start": "2026-08-25",
-    "application_window_end": "2026-09-12",
-    "exam_date": "2026-10-19",
-    "result_date": "2026-11-07",
-    "exam_form": ["小论文", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单", "财务证明"],
+    "subject_tags": [
+      "数学1",
+      "文综",
+      "英语"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "小论文",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单",
+      "财务证明"
+    ],
     "candy_review": "庆应经济适合想走私立名门经济路线、英语和数学都不错的学生。面试里会看志望理由是否和经济学习一致。",
-    "eju_subjects_required": ["日语", "综合科目", "数学1"],
+    "eju_subjects_required": [
+      "日语",
+      "综合科目",
+      "数学1"
+    ],
     "eju_japanese_min": 340,
     "english_required": true,
     "english_min": "建议 TOEFL 80+",
     "exam_subjects": "小论文、面试",
     "exam_description": "围绕经济兴趣、学习计划和表达能力进行确认。",
     "exam_tips": "不要只说就业好，准备具体经济议题。",
-    "candy_tags": ["私立名门", "经济", "面试重"],
+    "candy_tags": [
+      "私立名门",
+      "经济",
+      "面试重"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.keio.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -670,26 +1098,47 @@
     "faculty": "文学部",
     "major": "人文社会学科",
     "major_category": "人文-社会",
-    "subject_tags": ["日语强", "小论文", "阅读"],
-    "application_window_start": "2026-08-25",
-    "application_window_end": "2026-09-12",
-    "exam_date": "2026-10-20",
-    "result_date": "2026-11-07",
-    "exam_form": ["小论文", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "财务证明"],
+    "subject_tags": [
+      "日语强",
+      "小论文",
+      "阅读"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "小论文",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "财务证明"
+    ],
     "candy_review": "庆应文学部看重日语表达和学术兴趣。适合有阅读积累，能把兴趣落到具体学科的学生。",
-    "eju_subjects_required": ["日语", "综合科目", "数学1"],
+    "eju_subjects_required": [
+      "日语",
+      "综合科目",
+      "数学1"
+    ],
     "eju_japanese_min": 340,
     "english_required": false,
     "english_min": "有英语成绩更稳",
     "exam_subjects": "小论文、面试",
     "exam_description": "确认阅读能力、表达能力和志望理由。",
     "exam_tips": "把志望理由写成学科问题，不要写泛泛的文化兴趣。",
-    "candy_tags": ["私立名门", "日语强", "文学"],
+    "candy_tags": [
+      "私立名门",
+      "日语强",
+      "文学"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.keio.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -703,26 +1152,48 @@
     "faculty": "理工学部",
     "major": "物質生命理工学科",
     "major_category": "理工-材料生命",
-    "subject_tags": ["化学", "物理", "英语"],
-    "application_window_start": "2026-09-05",
-    "application_window_end": "2026-09-20",
-    "exam_date": "2026-10-25",
-    "result_date": "2026-11-12",
-    "exam_form": ["面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单", "财务证明"],
+    "subject_tags": [
+      "化学",
+      "物理",
+      "英语"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单",
+      "财务证明"
+    ],
     "candy_review": "上智理工适合英语不错、希望在东京私立体系里找理工匹配的学生。面试和材料完整度很关键。",
-    "eju_subjects_required": ["日语", "数学2", "物理", "化学"],
+    "eju_subjects_required": [
+      "日语",
+      "数学2",
+      "物理",
+      "化学"
+    ],
     "eju_japanese_min": 310,
     "english_required": true,
     "english_min": "建议 TOEFL 75+",
     "exam_subjects": "面试、材料审查",
     "exam_description": "通过材料和面试判断基础能力、英语和专业兴趣。",
     "exam_tips": "准备材料、生命、化学方向的具体兴趣点。",
-    "candy_tags": ["东京私立", "英语友好", "面试重"],
+    "candy_tags": [
+      "东京私立",
+      "英语友好",
+      "面试重"
+    ],
     "candy_rating": 4,
     "official_url": "https://www.sophia.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -736,26 +1207,48 @@
     "faculty": "経済学部",
     "major": "経済学科",
     "major_category": "商科-经济",
-    "subject_tags": ["文综", "数学1", "英语"],
-    "application_window_start": "2026-09-05",
-    "application_window_end": "2026-09-20",
-    "exam_date": "2026-10-26",
-    "result_date": "2026-11-12",
-    "exam_form": ["面试", "小论文"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单", "财务证明"],
+    "subject_tags": [
+      "文综",
+      "数学1",
+      "英语"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "面试",
+      "小论文"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单",
+      "财务证明"
+    ],
     "candy_review": "上智经济适合英语能力较好、想留在东京私立体系的学生。比起只拼校名，更要说明自己为何适合经济学。",
-    "eju_subjects_required": ["日语", "综合科目", "数学1"],
+    "eju_subjects_required": [
+      "日语",
+      "综合科目",
+      "数学1"
+    ],
     "eju_japanese_min": 320,
     "english_required": true,
     "english_min": "建议 TOEFL 75+",
     "exam_subjects": "小论文、面试",
     "exam_description": "确认日语表达、英语成绩和经济学兴趣。",
     "exam_tips": "用具体经济话题支撑志望理由。",
-    "candy_tags": ["东京私立", "英语友好", "商科"],
+    "candy_tags": [
+      "东京私立",
+      "英语友好",
+      "商科"
+    ],
     "candy_rating": 4,
     "official_url": "https://www.sophia.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -769,26 +1262,46 @@
     "faculty": "文学部",
     "major": "哲学科",
     "major_category": "人文-哲学",
-    "subject_tags": ["日语强", "阅读", "面试"],
-    "application_window_start": "2026-09-05",
-    "application_window_end": "2026-09-20",
-    "exam_date": "2026-10-27",
-    "result_date": "2026-11-12",
-    "exam_form": ["小论文", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单"],
+    "subject_tags": [
+      "日语强",
+      "阅读",
+      "面试"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "小论文",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单"
+    ],
     "candy_review": "上智文学部氛围偏国际化，适合语言能力好、有明确人文兴趣的学生。哲学方向尤其要避免空泛表达。",
-    "eju_subjects_required": ["日语", "综合科目", "数学1"],
+    "eju_subjects_required": [
+      "日语",
+      "综合科目",
+      "数学1"
+    ],
     "eju_japanese_min": 330,
     "english_required": false,
     "english_min": "有英语成绩更稳",
     "exam_subjects": "小论文、面试",
     "exam_description": "围绕阅读、表达和学科兴趣判断适配度。",
     "exam_tips": "准备 2-3 位思想家或文本的日文说明。",
-    "candy_tags": ["国际化", "人文", "面试重"],
+    "candy_tags": [
+      "国际化",
+      "人文",
+      "面试重"
+    ],
     "candy_rating": 4,
     "official_url": "https://www.sophia.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -802,26 +1315,49 @@
     "faculty": "医学部",
     "major": "医学科",
     "major_category": "医学-医学",
-    "subject_tags": ["医学", "生物化学", "高门槛"],
-    "application_window_start": "2026-10-01",
-    "application_window_end": "2026-10-18",
-    "exam_date": "2026-12-03",
-    "result_date": "2026-12-20",
-    "exam_form": ["笔试", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单", "推荐信"],
+    "subject_tags": [
+      "医学",
+      "生物化学",
+      "高门槛"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "笔试",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单",
+      "推荐信"
+    ],
     "candy_review": "医学科门槛极高，适合成绩、语言、动机和抗压都非常强的学生。家长要把它当超高难度冲刺，而不是常规保底。",
-    "eju_subjects_required": ["日语", "数学2", "生物", "化学"],
+    "eju_subjects_required": [
+      "日语",
+      "数学2",
+      "生物",
+      "化学"
+    ],
     "eju_japanese_min": 360,
     "english_required": true,
     "english_min": "建议 TOEFL 90+",
     "exam_subjects": "理科综合、英语、面试",
     "exam_description": "重点确认医学动机、基础学力、沟通能力和伦理意识。",
     "exam_tips": "医学面试要准备长期动机、临床理解和社会责任。",
-    "candy_tags": ["医学超难", "面试硬", "冲刺校"],
+    "candy_tags": [
+      "医学超难",
+      "面试硬",
+      "冲刺校"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.isct.ac.jp/",
     "logo": "",
-    "other_requirements": "校名与制度需按最新官网确认；日期为样例。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -835,26 +1371,49 @@
     "faculty": "歯学部",
     "major": "歯学科",
     "major_category": "医学-齿学",
-    "subject_tags": ["齿学", "生物化学", "面试"],
-    "application_window_start": "2026-10-01",
-    "application_window_end": "2026-10-18",
-    "exam_date": "2026-12-04",
-    "result_date": "2026-12-20",
-    "exam_form": ["笔试", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单", "推荐信"],
+    "subject_tags": [
+      "齿学",
+      "生物化学",
+      "面试"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "笔试",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单",
+      "推荐信"
+    ],
     "candy_review": "齿学科适合对医疗、口腔健康和技术操作都有兴趣的学生。面试会看动机是否具体，而不是只把齿学当医学替代。",
-    "eju_subjects_required": ["日语", "数学2", "生物", "化学"],
+    "eju_subjects_required": [
+      "日语",
+      "数学2",
+      "生物",
+      "化学"
+    ],
     "eju_japanese_min": 340,
     "english_required": true,
     "english_min": "建议 TOEFL 85+",
     "exam_subjects": "理科综合、英语、面试",
     "exam_description": "确认基础学力、齿学动机和沟通能力。",
     "exam_tips": "准备口腔医疗相关经历或观察，回答要具体。",
-    "candy_tags": ["齿学", "医疗", "面试重"],
+    "candy_tags": [
+      "齿学",
+      "医疗",
+      "面试重"
+    ],
     "candy_rating": 5,
     "official_url": "https://www.isct.ac.jp/",
     "logo": "",
-    "other_requirements": "校名与制度需按最新官网确认；日期为样例。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -868,26 +1427,48 @@
     "faculty": "医学部",
     "major": "保健衛生学科",
     "major_category": "医学-保健",
-    "subject_tags": ["保健", "生物", "面试"],
-    "application_window_start": "2026-10-01",
-    "application_window_end": "2026-10-18",
-    "exam_date": "2026-12-05",
-    "result_date": "2026-12-20",
-    "exam_form": ["小论文", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单"],
+    "subject_tags": [
+      "保健",
+      "生物",
+      "面试"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "小论文",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单"
+    ],
     "candy_review": "保健卫生方向适合想进入医疗健康体系，但不一定走医学科超高难路线的学生。需要把职业理解讲得清楚。",
-    "eju_subjects_required": ["日语", "数学2", "生物", "化学"],
+    "eju_subjects_required": [
+      "日语",
+      "数学2",
+      "生物",
+      "化学"
+    ],
     "eju_japanese_min": 330,
     "english_required": true,
     "english_min": "建议 TOEFL 75+",
     "exam_subjects": "小论文、面试",
     "exam_description": "围绕医疗沟通、基础科学和志望理由进行确认。",
     "exam_tips": "准备医疗健康议题和团队协作相关回答。",
-    "candy_tags": ["保健", "医疗沟通", "面试重"],
+    "candy_tags": [
+      "保健",
+      "医疗沟通",
+      "面试重"
+    ],
     "candy_rating": 4,
     "official_url": "https://www.isct.ac.jp/",
     "logo": "",
-    "other_requirements": "校名与制度需按最新官网确认；日期为样例。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -901,26 +1482,47 @@
     "faculty": "教養学部",
     "major": "国際関係メジャー",
     "major_category": "教养-国际关系",
-    "subject_tags": ["英语强", "小论文", "国际关系"],
-    "application_window_start": "2026-08-05",
-    "application_window_end": "2026-08-22",
-    "exam_date": "2026-09-16",
-    "result_date": "2026-10-02",
-    "exam_form": ["小论文", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单", "财务证明"],
+    "subject_tags": [
+      "英语强",
+      "小论文",
+      "国际关系"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "小论文",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单",
+      "财务证明"
+    ],
     "candy_review": "ICU 适合英语和日语都愿意提升、喜欢跨学科学习的学生。国际关系方向要有真实议题关注。",
-    "eju_subjects_required": ["日语", "综合科目"],
+    "eju_subjects_required": [
+      "日语",
+      "综合科目"
+    ],
     "eju_japanese_min": 300,
     "english_required": true,
     "english_min": "建议 TOEFL 80+ / IELTS 6.5+",
     "exam_subjects": "小论文、面试、英语材料审查",
     "exam_description": "重视综合表达、批判思考和英语能力。",
     "exam_tips": "准备国际议题案例，表达要有立场也有结构。",
-    "candy_tags": ["英语强", "跨学科", "国际化"],
+    "candy_tags": [
+      "英语强",
+      "跨学科",
+      "国际化"
+    ],
     "candy_rating": 4,
     "official_url": "https://www.icu.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -934,26 +1536,47 @@
     "faculty": "教養学部",
     "major": "心理学メジャー",
     "major_category": "教养-心理",
-    "subject_tags": ["英语强", "心理", "小论文"],
-    "application_window_start": "2026-08-05",
-    "application_window_end": "2026-08-22",
-    "exam_date": "2026-09-17",
-    "result_date": "2026-10-02",
-    "exam_form": ["小论文", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单", "财务证明"],
+    "subject_tags": [
+      "英语强",
+      "心理",
+      "小论文"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "小论文",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单",
+      "财务证明"
+    ],
     "candy_review": "ICU 心理方向适合对人、社会和科学方法都有兴趣的学生。面试中要避免把心理学说成单纯读心或咨询。",
-    "eju_subjects_required": ["日语", "综合科目"],
+    "eju_subjects_required": [
+      "日语",
+      "综合科目"
+    ],
     "eju_japanese_min": 300,
     "english_required": true,
     "english_min": "建议 TOEFL 80+ / IELTS 6.5+",
     "exam_subjects": "小论文、面试、英语材料审查",
     "exam_description": "确认综合表达、英语能力和心理学基础理解。",
     "exam_tips": "准备心理学研究方法和感兴趣主题的简单说明。",
-    "candy_tags": ["心理", "跨学科", "英语强"],
+    "candy_tags": [
+      "心理",
+      "跨学科",
+      "英语强"
+    ],
     "candy_rating": 4,
     "official_url": "https://www.icu.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   },
   {
@@ -967,26 +1590,48 @@
     "faculty": "教養学部",
     "major": "情報科学メジャー",
     "major_category": "教养-信息科学",
-    "subject_tags": ["英语强", "数学", "信息"],
-    "application_window_start": "2026-08-05",
-    "application_window_end": "2026-08-22",
-    "exam_date": "2026-09-18",
-    "result_date": "2026-10-02",
-    "exam_form": ["小论文", "面试"],
-    "required_documents": ["志望理由书", "EJU成绩单", "高中毕业证明", "高中成绩单", "英语成绩单", "财务证明"],
+    "subject_tags": [
+      "英语强",
+      "数学",
+      "信息"
+    ],
+    "application_window_start": "",
+    "application_window_end": "",
+    "exam_date": "",
+    "result_date": "",
+    "exam_form": [
+      "小论文",
+      "面试"
+    ],
+    "required_documents": [
+      "志望理由书",
+      "EJU成绩单",
+      "高中毕业证明",
+      "高中成绩单",
+      "英语成绩单",
+      "财务证明"
+    ],
     "candy_review": "ICU 信息科学适合既想保留跨学科空间，又对计算机方向有兴趣的学生。英语和数学基础都要能支撑后续课程。",
-    "eju_subjects_required": ["日语", "数学2", "理科"],
+    "eju_subjects_required": [
+      "日语",
+      "数学2",
+      "理科"
+    ],
     "eju_japanese_min": 300,
     "english_required": true,
     "english_min": "建议 TOEFL 80+ / IELTS 6.5+",
     "exam_subjects": "小论文、面试、英语材料审查",
     "exam_description": "确认综合表达、英语能力、数学和信息兴趣。",
     "exam_tips": "准备编程或数据相关经历，讲清楚为什么选择 liberal arts 环境。",
-    "candy_tags": ["信息科学", "跨学科", "英语强"],
+    "candy_tags": [
+      "信息科学",
+      "跨学科",
+      "英语强"
+    ],
     "candy_rating": 4,
     "official_url": "https://www.icu.ac.jp/",
     "logo": "",
-    "other_requirements": "日期为样例，正式上线前需官网核验。",
+    "other_requirements": "日期待官方公布，请查看官方募集要项。",
     "updated_at": "2026-06-02"
   }
 ]
