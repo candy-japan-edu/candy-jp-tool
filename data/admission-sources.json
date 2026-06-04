@@ -1,17 +1,12 @@
 {
   "东京大学": {
-    "status": "official_2026_found",
+    "status": "official_found",
     "source_year": "2026年度",
-    "checked_at": "2026-06-02",
-    "verification_note": "已找到东京大学官方“外国学校卒業学生特別選考”页面与 2026 年度募集要項。当前 H5 中 2027 年日期为演示样例，不能当作官方日期。",
-    "original_snippets": [
-      "第1種：私費留学生を対象とした選抜",
-      "出願期間 2025年12月1日(月)～12月5日(金)",
-      "試験期日 2026年2月25日(水)、3月4日(水)"
-    ],
+    "checked_at": "2026-06-04",
+    "verification_note": "东京大学官方外国学校卒業学生特別選考页面与年度募集要項 PDF。",
     "links": [
       {
-        "label": "东京大学 官方入试页面",
+        "label": "东京大学 外国学校卒業学生特別選考",
         "url": "https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/e01_02_04.html"
       },
       {
@@ -21,17 +16,13 @@
     ]
   },
   "京都大学": {
-    "status": "partial_official_found",
+    "status": "official_found",
     "source_year": "2026年度",
-    "checked_at": "2026-06-02",
-    "verification_note": "已找到京都大学官方本科留学生页面与工学部私费外国人留学生特別選考 PDF。京大文学部、经济学部的入试制度与当前样例数据不完全一致，需按学部官方页面逐条重填。",
-    "original_snippets": [
-      "2026年度京都大学工学部私費外国人留学生特別選考出願要項",
-      "2026年度京都大学工学部私費外国人留学生特別選考における変更について"
-    ],
+    "checked_at": "2026-06-04",
+    "verification_note": "京都大学官方私費外国人留学生本科入学案内与工学部年度 PDF。",
     "links": [
       {
-        "label": "京都大学 私费外国人留学生本科页面",
+        "label": "京都大学 私費外国人留学生本科入学案内",
         "url": "https://www.kyoto-u.ac.jp/ja/international/students1/study1/undergraduate/addmissions"
       },
       {
@@ -41,44 +32,29 @@
     ]
   },
   "东京科学大学": {
-    "status": "official_2026_found",
+    "status": "official_found",
     "source_year": "2026年度",
-    "checked_at": "2026-06-02",
-    "verification_note": "已找到东京科学大学理工学系与医歯学系的官方入试资料入口。当前 H5 日期是样例，应按各学院 PDF 重填。",
-    "original_snippets": [
-      "私費外国人留学生特別選抜",
-      "理工学系 募集要項",
-      "医歯学系 外国人留学生特別選抜"
-    ],
+    "checked_at": "2026-06-04",
+    "verification_note": "东京科学大学理工学系私費外国人留学生特別選抜入口与年度 PDF。",
     "links": [
       {
-        "label": "东京科学大学 理工学系 募集要項入口",
+        "label": "东京科学大学 理工学系募集要項入口",
         "url": "https://admissions.isct.ac.jp/ja/013/undergraduate/guideline"
       },
       {
         "label": "东京科学大学 理工学系 2026年度募集要項 PDF",
         "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?contentsDataId=&contentsId=&fileName=r08-guideline-foreign&key=2d0fd38079e559300ba7c3fa788f3c65.pdf&pageId=3088&prevId=&type=1"
-      },
-      {
-        "label": "东京科学大学 医歯学系 外国人留学生特別選抜入口",
-        "url": "https://admissions.isct.ac.jp/ja/015/admissions/faculty/faculty02/foreign"
       }
     ]
   },
   "大阪大学": {
-    "status": "official_2027_release_schedule_found",
-    "source_year": "2027年度予定 / 2026年度実施済み",
-    "checked_at": "2026-06-02",
-    "verification_note": "大阪大学官网已公布 2027 年度私费外国人留学生特别入试的资料发布时间：选拔要项预计 2026 年 7 月下旬，学生募集要项和出愿书类预计 2026 年 9 月下旬。当前 H5 日期为样例，2027 正式日期应等官网发布后重填。",
-    "original_snippets": [
-      "2027年度 私費外国人留学生特別入試",
-      "入学者選抜要項は、2026年7月下旬ごろの公表を予定",
-      "学生募集要項及び出願書類は、2026年9月下旬ごろの公表を予定",
-      "Web出願システムへの登録だけでは出願手続は完了しません"
-    ],
+    "status": "official_found",
+    "source_year": "2026年度/2027年度予定",
+    "checked_at": "2026-06-04",
+    "verification_note": "大阪大学私費外国人留学生特別入試页面与既有年度 PDF。",
     "links": [
       {
-        "label": "大阪大学 私费外国人留学生特别入试页面",
+        "label": "大阪大学 私費外国人留学生特別入試",
         "url": "https://www.osaka-u.ac.jp/ja/admissions/faculty/expense"
       },
       {
@@ -88,123 +64,322 @@
     ]
   },
   "一桥大学": {
-    "status": "official_2026_found",
+    "status": "official_found",
     "source_year": "2026年度",
-    "checked_at": "2026-06-02",
-    "verification_note": "已找到一桥大学官方募集要項页面与 2026 年度私费外国人留学生选拔 PDF。当前 H5 日期为样例，需以官方 PDF 重填。",
-    "original_snippets": [
-      "令和8(2026)年度 私費外国人留学生選抜募集要項",
-      "外国人で、外国において学校教育における12年の課程を修了した方"
-    ],
+    "checked_at": "2026-06-04",
+    "verification_note": "一桥大学官方募集要項页面与私費外国人留学生選抜 PDF。",
     "links": [
       {
-        "label": "一桥大学 募集要項页面",
+        "label": "一桥大学 募集要項",
         "url": "https://juken.hit-u.ac.jp/admission/info/guidelines/index.html"
       },
       {
-        "label": "一桥大学 2026年度私费外国人留学生选拔 PDF",
+        "label": "一桥大学 私費外国人留学生選抜 PDF",
         "url": "https://juken.hit-u.ac.jp/admission/info/guidelines/files/R8ryuugaku_youkou.pdf"
       }
     ]
   },
   "早稻田大学": {
-    "status": "official_2027_found",
+    "status": "official_found",
     "source_year": "2027年度",
-    "checked_at": "2026-06-02",
-    "verification_note": "已找到早稻田大学官方 2027 年度外国学生入试资料与理工学部国际入试页面。早大不同学部入试方式不同，应按学部官方入口分开维护。",
-    "original_snippets": [
-      "2027年度外国学生のための学部入学試験要項",
-      "各学部において様々な入試制度を設けています"
-    ],
+    "checked_at": "2026-06-04",
+    "verification_note": "早稻田大学外国学生のための学部入学試験页面与年度 PDF。",
     "links": [
       {
-        "label": "早稻田大学 外国学生入试页面",
+        "label": "早稻田大学 外国学生学部入学試験",
         "url": "https://www.waseda.jp/inst/admission/undergraduate/system/international"
       },
       {
-        "label": "早稻田大学 入试要项・愿书页面",
-        "url": "https://www.waseda.jp/inst/admission/undergraduate/application"
-      },
-      {
-        "label": "早稻田大学 2027年度外国学生入试要项 PDF",
+        "label": "早稻田大学 2027年度入試要項 PDF",
         "url": "https://www.waseda.jp/inst/admission/assets/uploads/2026/02/01_2027_gaikokugakusei_nyushiyoukou.pdf"
-      },
-      {
-        "label": "早稻田大学 创造理工 / 先进理工国际入试页面",
-        "url": "https://www.waseda.jp/fsci/admissions_us/application"
       }
     ]
   },
   "庆应义塾大学": {
     "status": "official_found",
-    "source_year": "2026年度/2027年度需按页面更新",
-    "checked_at": "2026-06-02",
-    "verification_note": "已找到庆应义塾大学官方外国人留学生对象入学试验入口。经济、文学、理工等学部需按该页面发布的年度要项分别核验。",
-    "original_snippets": [
-      "外国人留学生対象入学試験",
-      "2026年度 外国人留学生対象入学試験 出願資格"
-    ],
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "庆应义塾大学外国人留学生対象入学試験官方入口。",
     "links": [
       {
-        "label": "庆应义塾大学 外国人留学生对象入学试验入口",
-        "url": "https://www.keio.ac.jp/ja/admissions/examinations/international-students/"
-      },
-      {
-        "label": "Keio Admissions 页面",
-        "url": "https://admissions.keio.ac.jp/en/"
+        "label": "庆应义塾大学 外国人留学生対象入学試験",
+        "url": "https://www.keio.ac.jp/ja/admissions/faculty/examinations/international-student/"
       }
     ]
   },
   "上智大学": {
-    "status": "official_2027_found",
-    "source_year": "2027年度",
-    "checked_at": "2026-06-02",
-    "verification_note": "已找到上智大学官方本科入试页面，2027 年度各入试制度资料已在官网更新。当前 H5 日期为样例，需用官方要项重填。",
-    "original_snippets": [
-      "2027年度外国人入学試験の入学試験要項を公開いたしました",
-      "国際教養学部を除く全ての学部・学科で募集します"
-    ],
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "上智大学本科入试官方入口。",
     "links": [
       {
-        "label": "上智大学 学部入试页面",
+        "label": "上智大学 Undergraduate Admissions",
         "url": "https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/"
       }
     ]
   },
-  "东京医科齿科大学（现东京科学大学）": {
+  "东京医科齿科大学（东京科学大学医歯学系）": {
     "status": "official_found_after_merger",
-    "source_year": "2026年度",
-    "checked_at": "2026-06-02",
-    "verification_note": "东京医科齿科大学已整合为东京科学大学。医学、齿学、保健卫生方向应使用东京科学大学医歯学系官方入试页面核验。",
-    "original_snippets": [
-      "医歯学系 外国人留学生特別選抜",
-      "東京科学大学"
-    ],
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "东京医科齿科大学已并入东京科学大学，监控东京科学大学医歯学系相关入试入口。",
     "links": [
       {
-        "label": "东京科学大学 医歯学系 外国人留学生特別選抜入口",
-        "url": "https://admissions.isct.ac.jp/ja/015/admissions/faculty/faculty02/foreign"
+        "label": "东京科学大学 入试信息入口",
+        "url": "https://admissions.isct.ac.jp/ja"
       }
     ]
   },
   "国际基督教大学 ICU": {
-    "status": "official_2027_found",
-    "source_year": "2027年度",
-    "checked_at": "2026-06-02",
-    "verification_note": "ICU 采用自身的 April/September Admissions 等制度，不是典型 EJU 校内考模板。当前 H5 中 ICU 的 EJU 字段应改为 ICU 官方入试字段。",
-    "original_snippets": [
-      "Undergraduate Admissions Guide 2027",
-      "Application Schedule for English Language Based Admissions 2027",
-      "Admission decisions are made holistically"
-    ],
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "ICU 官方 admissions 入口。",
     "links": [
       {
-        "label": "ICU Undergraduate Admissions",
-        "url": "https://www.icu.ac.jp/en/admissions/undergraduate/"
-      },
+        "label": "ICU Admissions",
+        "url": "https://www.icu.ac.jp/en/admissions/"
+      }
+    ]
+  },
+  "名古屋大学": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "名古屋大学官方学部入试入口。",
+    "links": [
       {
-        "label": "ICU April Admissions 2027",
-        "url": "https://www.icu.ac.jp/en/admissions/undergraduate/exam/april/"
+        "label": "名古屋大学 学部入試情報",
+        "url": "https://www.nagoya-u.ac.jp/admissions/exam/"
+      }
+    ]
+  },
+  "东北大学": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "东北大学入试中心官方入口。",
+    "links": [
+      {
+        "label": "东北大学 入試センター",
+        "url": "https://admissions.tohoku.ac.jp/ja/"
+      }
+    ]
+  },
+  "北海道大学": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "北海道大学学部入试官方入口。",
+    "links": [
+      {
+        "label": "北海道大学 学部入試",
+        "url": "https://www.hokudai.ac.jp/admission/faculty/"
+      }
+    ]
+  },
+  "九州大学": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "九州大学学部入学者選抜官方入口。",
+    "links": [
+      {
+        "label": "九州大学 学部入学者選抜",
+        "url": "https://www.kyushu-u.ac.jp/ja/admission/faculty/selection"
+      }
+    ]
+  },
+  "神户大学": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "神户大学官方入试信息入口。",
+    "links": [
+      {
+        "label": "神户大学 入試情報",
+        "url": "https://www.kobe-u.ac.jp/ja/admissions/"
+      }
+    ]
+  },
+  "横滨国立大学": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "横滨国立大学学生募集要項官方入口。",
+    "links": [
+      {
+        "label": "横滨国立大学 学生募集要項",
+        "url": "https://www.ynu.ac.jp/exam/faculty/essential/index.html"
+      }
+    ]
+  },
+  "筑波大学": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "筑波大学入试信息站官方入口。",
+    "links": [
+      {
+        "label": "筑波大学 入試情報サイト",
+        "url": "https://ac.tsukuba.ac.jp/"
+      }
+    ]
+  },
+  "千叶大学": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "千叶大学入试信息官方入口。",
+    "links": [
+      {
+        "label": "千叶大学 入試情報",
+        "url": "https://www.chiba-u.ac.jp/admissions/"
+      }
+    ]
+  },
+  "东京外国语大学": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "东京外国语大学入试信息官方入口。",
+    "links": [
+      {
+        "label": "东京外国语大学 入試情報",
+        "url": "https://www.tufs.ac.jp/admission/"
+      }
+    ]
+  },
+  "东京理科大学": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "东京理科大学募集要項官方入口。",
+    "links": [
+      {
+        "label": "东京理科大学 募集要項",
+        "url": "https://www.tus.ac.jp/admissions/university/guideline/"
+      }
+    ]
+  },
+  "明治大学": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "明治大学入试信息官方入口。",
+    "links": [
+      {
+        "label": "明治大学 入試情報",
+        "url": "https://www.meiji.ac.jp/exam/"
+      }
+    ]
+  },
+  "青山学院大学": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "青山学院大学学部入学者選抜官方入口。",
+    "links": [
+      {
+        "label": "青山学院大学 学部入学者選抜",
+        "url": "https://www.aoyama.ac.jp/admission/undergraduate/examination/"
+      }
+    ]
+  },
+  "立教大学": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "立教大学学部入试官方入口。",
+    "links": [
+      {
+        "label": "立教大学 学部入試",
+        "url": "https://www.rikkyo.ac.jp/admissions/undergraduate/"
+      }
+    ]
+  },
+  "中央大学": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "中央大学入试信息官方入口。",
+    "links": [
+      {
+        "label": "中央大学 入試情報",
+        "url": "https://www.chuo-u.ac.jp/connect/admission/"
+      }
+    ]
+  },
+  "立命馆大学": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "立命馆大学入试信息官方入口。",
+    "links": [
+      {
+        "label": "立命馆大学 入試情報",
+        "url": "https://admission.ritsumei.ac.jp/"
+      }
+    ]
+  },
+  "法政大学": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "法政大学入试信息官方入口。",
+    "links": [
+      {
+        "label": "法政大学 入試情報",
+        "url": "https://nyushi.hosei.ac.jp/nyushi/"
+      }
+    ]
+  },
+  "同志社大学": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "同志社大学海外からの入学官方入口。",
+    "links": [
+      {
+        "label": "同志社大学 海外からの入学",
+        "url": "https://www.doshisha.ac.jp/international/from_abroad/admission.html"
+      }
+    ]
+  },
+  "关西学院大学": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "关西学院大学入试信息官方入口。",
+    "links": [
+      {
+        "label": "关西学院大学 入試情報",
+        "url": "https://www.kwansei.ac.jp/admissions/"
+      }
+    ]
+  },
+  "名城大学（药学）": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "名城大学入试信息官方入口，药学方向需按年度要项人工确认。",
+    "links": [
+      {
+        "label": "名城大学 入試情報",
+        "url": "https://www.meijo-u.ac.jp/admissions/"
+      }
+    ]
+  },
+  "东京药科大学": {
+    "status": "official_found",
+    "source_year": "官方入口",
+    "checked_at": "2026-06-04",
+    "verification_note": "东京药科大学入试信息官方入口。",
+    "links": [
+      {
+        "label": "东京药科大学 入試情報",
+        "url": "https://www.toyaku.ac.jp/examinee/admissions/"
       }
     ]
   }

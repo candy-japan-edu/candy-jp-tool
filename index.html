@@ -3,98 +3,63 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Candy 日本大学校内考查询库</title>
+    <title>Candy 日本校内考雷达</title>
     <meta
       name="description"
-      content="Candy 日本校内考查询库：查询目标日本大学的出愿截止、校内考日期、考试形式和出愿要求。"
+      content="Candy 日本校内考雷达：每天监控 30 所日本大学官方入试页面更新，并提供 Candy 老师人工解读。"
     />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="theme-color" content="#1a0f2e" />
     <link rel="icon" href="data:," />
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body data-page="home">
+  <body>
     <header class="topbar">
-      <a class="brand" href="./index.html" aria-label="Candy 日本校内考查询库">
+      <a class="brand" href="./index.html" aria-label="Candy 日本校内考雷达">
         <img class="brand-avatar" src="./assets/candy-avatar.jpg" alt="Candy 日本留学圈头像" />
         <span>
           <strong>CANDY 日本留学圈</strong>
-          <small>校内考查询库</small>
+          <small>校内考雷达</small>
         </span>
       </a>
-      <a class="header-link" href="./compare.html">对比清单 <span id="compareBadge">0</span></a>
+      <button class="header-button" type="button" data-open-wechat>咨询</button>
     </header>
 
-    <main class="page-shell">
-      <section class="home-intro">
-        <p class="eyebrow">Candy Admission Finder</p>
-        <h1>Candy 日本校内考查询库</h1>
-        <p>查询 30+ 院校的出愿要求、考试形式、官方募集要项</p>
-      </section>
+    <main class="app-shell">
+      <section class="hero">
+        <p class="eyebrow">Admissions Radar</p>
+        <h1>校内考雷达</h1>
+        <p class="hero-copy">每天自动检查 30 所大学官方入试页，发现变化后由 Candy 老师给家长做人工解读。</p>
 
-      <section class="search-panel" aria-label="校内考查询">
-        <label class="search-box" for="searchInput">
-          <span>快速搜索</span>
-          <input id="searchInput" type="search" placeholder="输入学校名、学部、专业方向" autocomplete="off" />
-        </label>
-
-        <div class="filter-group" aria-label="档位筛选">
-          <p>档位</p>
-          <div class="chip-row" id="tierChips"></div>
-        </div>
-        <div class="filter-group" aria-label="类型筛选">
-          <p>类型</p>
-          <div class="chip-row" id="typeChips"></div>
-        </div>
-        <div class="filter-group" aria-label="方向筛选">
-          <p>方向</p>
-          <div class="chip-row" id="directionChips"></div>
-        </div>
-        <div class="filter-group" aria-label="地区筛选">
-          <p>地区</p>
-          <div class="chip-row" id="regionChips"></div>
-        </div>
-
-        <div class="search-actions">
-          <div class="active-filter-line" id="activeFilters">全部学校</div>
-          <button class="text-button" id="resetFilters" type="button">重置</button>
+        <div class="radar-card" id="todayPanel" aria-live="polite">
+          <div class="skeleton-line"></div>
+          <div class="skeleton-line short"></div>
         </div>
       </section>
 
-      <section class="stats-strip" aria-label="数据库概览">
-        <article>
-          <span>30+</span>
-          <p>院校</p>
-        </article>
-        <article>
-          <span>100+</span>
-          <p>专业</p>
-        </article>
-        <article>
-          <span>官方</span>
-          <p>募集要项源已核验</p>
-        </article>
-      </section>
-
-      <section class="content-head">
-        <div>
-          <p class="eyebrow">Popular</p>
-          <h2>热门院校</h2>
+      <section class="section-block">
+        <div class="section-head">
+          <p class="eyebrow">Timeline</p>
+          <h2>过去 14 天的更新轨迹</h2>
         </div>
+        <div class="timeline" id="timelinePanel" aria-live="polite"></div>
       </section>
 
-      <section id="popularSchools" class="popular-grid" aria-live="polite"></section>
-
-      <section class="content-head">
-        <div>
-          <p class="eyebrow">Schools</p>
-          <h2 id="resultTitle">完整学校列表</h2>
+      <section class="section-block">
+        <div class="section-head">
+          <p class="eyebrow">Watch List</p>
+          <h2>我们在监控这些学校</h2>
         </div>
+        <div class="watch-list" id="watchListPanel" aria-live="polite"></div>
       </section>
-
-      <section id="listView" class="list-view" aria-live="polite"></section>
     </main>
 
-    <button class="floating-cta" type="button" data-open-wechat>加 Candy 老师微信咨询</button>
+    <aside class="bottom-cta">
+      <div>
+        <strong>想要更精细的解读？</strong>
+        <p>截图发给 Candy 老师，直接问变化影响。</p>
+      </div>
+      <button class="primary-button" type="button" data-open-wechat>加微信</button>
+    </aside>
 
     <div class="modal-backdrop" id="wechatModal" aria-hidden="true">
       <section class="wechat-modal" role="dialog" aria-modal="true" aria-labelledby="wechatTitle">
@@ -107,6 +72,258 @@
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-    <script src="./app.js"></script>
+    <script type="module">
+      const WATCH_LIST_URL = "./data/watch-list.json";
+      const UPDATES_URL = "./data/updates.json";
+      const todayPanel = document.querySelector("#todayPanel");
+      const timelinePanel = document.querySelector("#timelinePanel");
+      const watchListPanel = document.querySelector("#watchListPanel");
+
+      const tierNames = {
+        1: "第一档",
+        2: "第二档",
+        3: "第三档"
+      };
+
+      function escapeHtml(value) {
+        return String(value ?? "")
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
+      }
+
+      function dateKey(date) {
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, "0");
+        const day = String(date.getDate()).padStart(2, "0");
+        return `${year}-${month}-${day}`;
+      }
+
+      function formatDay(date) {
+        return `${date.getMonth() + 1}月${date.getDate()}日`;
+      }
+
+      function formatTime(date) {
+        if (!date) return "等待首次检查";
+        const now = new Date();
+        const sameDay = dateKey(now) === dateKey(date);
+        const time = `${String(date.getHours()).padStart(2, "0")}:${String(date.getMinutes()).padStart(2, "0")}`;
+        return sameDay ? `今天 ${time}` : `${formatDay(date)} ${time}`;
+      }
+
+      function formatRelative(value) {
+        if (!value) return "刚刚";
+        const diffMs = Date.now() - new Date(value).getTime();
+        const minutes = Math.max(0, Math.floor(diffMs / 60000));
+        if (minutes < 3) return "刚刚";
+        if (minutes < 60) return `${minutes} 分钟前`;
+        const hours = Math.floor(minutes / 60);
+        if (hours < 24) return `${hours} 小时前`;
+        return `${Math.floor(hours / 24)} 天前`;
+      }
+
+      function addDays(date, days) {
+        const next = new Date(date);
+        next.setDate(next.getDate() + days);
+        return next;
+      }
+
+      function latestDate(records) {
+        const latest = records
+          .map((item) => new Date(item.detected_at))
+          .filter((date) => !Number.isNaN(date.getTime()))
+          .sort((a, b) => b - a)[0];
+        return latest || null;
+      }
+
+      function updateCard(update) {
+        const hasComment = update.candy_comment && !update.is_baseline;
+        const officialPdf = update.official_pdf
+          ? `<a class="ghost-button" href="${escapeHtml(update.official_pdf)}" target="_blank" rel="noreferrer">查看 PDF</a>`
+          : "";
+
+        return `
+          <article class="update-card">
+            <div class="update-topline">
+              <span class="school-name">${escapeHtml(update.school_name)}</span>
+              <span>${escapeHtml(formatRelative(update.detected_at))}</span>
+            </div>
+            <p class="watch-label">${escapeHtml(update.watch_label)}</p>
+            <div class="comment-box ${hasComment ? "" : "pending"}">
+              <span>💡 Candy 老师解读</span>
+              <p>${hasComment ? escapeHtml(update.candy_comment) : "Candy 老师正在分析中…等待解读"}</p>
+            </div>
+            <div class="card-actions">
+              <a class="ghost-button" href="${escapeHtml(update.watch_url)}" target="_blank" rel="noreferrer">查看官方页面</a>
+              ${officialPdf}
+              <button class="primary-button compact" type="button" data-open-wechat>问 Candy</button>
+            </div>
+          </article>
+        `;
+      }
+
+      function renderToday(updates, watchList) {
+        const today = dateKey(new Date());
+        const visibleUpdates = updates.filter((item) => !item.is_baseline);
+        const todayUpdates = visibleUpdates.filter((item) => dateKey(new Date(item.detected_at)) === today);
+        const lastChecked = latestDate(updates);
+
+        if (todayUpdates.length) {
+          const schools = new Set(todayUpdates.map((item) => item.school_id)).size;
+          todayPanel.innerHTML = `
+            <div class="status-pill alert">Live Update</div>
+            <h2>今天 ${schools} 所大学官网有更新</h2>
+            <p class="panel-note">Candy 老师会优先解读影响出愿、校内考和材料准备的变化。</p>
+            <div class="update-stack">${todayUpdates.map(updateCard).join("")}</div>
+          `;
+          return;
+        }
+
+        todayPanel.innerHTML = `
+          <div class="status-pill stable">All Clear</div>
+          <h2>今天监控的 ${watchList.length} 所学校官网暂无变化</h2>
+          <p class="panel-note">上次检测：${escapeHtml(formatTime(lastChecked))}</p>
+          <div class="quiet-metrics">
+            <span>${watchList.length} 所学校</span>
+            <span>${watchList.reduce((total, school) => total + (school.watch_urls?.length || 0), 0)} 个页面</span>
+            <span>每日 09:00</span>
+          </div>
+        `;
+      }
+
+      function renderTimeline(updates) {
+        const visibleUpdates = updates.filter((item) => !item.is_baseline);
+        const today = new Date();
+        const days = Array.from({ length: 14 }, (_, index) => addDays(today, -index));
+
+        timelinePanel.innerHTML = days
+          .map((day, index) => {
+            const key = dateKey(day);
+            const dayUpdates = visibleUpdates.filter((item) => dateKey(new Date(item.detected_at)) === key);
+
+            if (!dayUpdates.length) {
+              return `
+                <div class="timeline-row empty">
+                  <span class="timeline-date">${escapeHtml(formatDay(day))}</span>
+                  <span class="timeline-summary">暂无更新</span>
+                </div>
+              `;
+            }
+
+            const interpreted = dayUpdates.filter((item) => item.candy_comment).length;
+            return `
+              <details class="timeline-row" ${index === 0 ? "open" : ""}>
+                <summary>
+                  <span class="timeline-date">${escapeHtml(formatDay(day))}</span>
+                  <span class="timeline-summary">${dayUpdates.length} 条更新 · ${interpreted} 条已解读</span>
+                </summary>
+                <div class="update-stack nested">${dayUpdates.map(updateCard).join("")}</div>
+              </details>
+            `;
+          })
+          .join("");
+      }
+
+      function latestForSchool(updates, schoolId, includeBaseline = false) {
+        return updates.find((item) => item.school_id === schoolId && (includeBaseline || !item.is_baseline));
+      }
+
+      function renderWatchList(watchList, updates) {
+        const groups = new Map();
+        [...watchList]
+          .sort((a, b) => Number(a.tier) - Number(b.tier) || a.school_name.localeCompare(b.school_name, "zh-Hans-CN"))
+          .forEach((school) => {
+            if (!groups.has(school.tier)) groups.set(school.tier, []);
+            groups.get(school.tier).push(school);
+          });
+
+        watchListPanel.innerHTML = Array.from(groups.entries())
+          .map(([tier, schools]) => {
+            const cards = schools
+              .map((school) => {
+                const latestUpdate = latestForSchool(updates, school.id, false);
+                const baseline = latestForSchool(updates, school.id, true);
+                const primaryUrl = school.watch_urls?.[0]?.url || "#";
+                const status = latestUpdate
+                  ? `上次更新 ${formatDay(new Date(latestUpdate.detected_at))}`
+                  : baseline
+                    ? "已建立监控"
+                    : "等待首次检测";
+
+                return `
+                  <a class="school-tile" href="${escapeHtml(primaryUrl)}" target="_blank" rel="noreferrer">
+                    <span>
+                      <strong>${escapeHtml(school.school_name)}</strong>
+                      <small>${escapeHtml(school.school_name_jp)} · ${escapeHtml(school.school_type)}</small>
+                    </span>
+                    <em>${escapeHtml(status)}</em>
+                  </a>
+                `;
+              })
+              .join("");
+
+            return `
+              <section class="tier-group">
+                <div class="tier-title">
+                  <h3>${escapeHtml(tierNames[tier] || `第${tier}档`)}</h3>
+                  <span>${schools.length} 所</span>
+                </div>
+                <div class="school-grid">${cards}</div>
+              </section>
+            `;
+          })
+          .join("");
+      }
+
+      function openWeChatModal() {
+        const modal = document.querySelector("#wechatModal");
+        modal.classList.add("open");
+        modal.setAttribute("aria-hidden", "false");
+      }
+
+      function closeWeChatModal() {
+        const modal = document.querySelector("#wechatModal");
+        modal.classList.remove("open");
+        modal.setAttribute("aria-hidden", "true");
+      }
+
+      function bindModal() {
+        document.addEventListener("click", (event) => {
+          if (event.target.closest("[data-open-wechat]")) openWeChatModal();
+          if (event.target.closest("[data-close-wechat]")) closeWeChatModal();
+          if (event.target.id === "wechatModal") closeWeChatModal();
+        });
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape") closeWeChatModal();
+        });
+      }
+
+      async function loadJson(url) {
+        const response = await fetch(url);
+        if (!response.ok) throw new Error(`${url} 加载失败`);
+        return response.json();
+      }
+
+      async function main() {
+        bindModal();
+        try {
+          const [watchList, updates] = await Promise.all([loadJson(WATCH_LIST_URL), loadJson(UPDATES_URL)]);
+          const sortedUpdates = [...updates].sort((a, b) => new Date(b.detected_at) - new Date(a.detected_at));
+          renderToday(sortedUpdates, watchList);
+          renderTimeline(sortedUpdates);
+          renderWatchList(watchList, sortedUpdates);
+        } catch (error) {
+          todayPanel.innerHTML = `
+            <div class="status-pill alert">Data Error</div>
+            <h2>雷达数据加载失败</h2>
+            <p class="panel-note">${escapeHtml(error.message)}</p>
+          `;
+        }
+      }
+
+      main();
+    </script>
   </body>
 </html>

@@ -1,0 +1,422 @@
+[
+  {
+    "id": "todai",
+    "school_name": "东京大学",
+    "school_name_jp": "東京大学",
+    "tier": 1,
+    "school_type": "国公立",
+    "watch_urls": [
+      {
+        "label": "外国学校卒業学生特別選考",
+        "url": "https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/e01_02_04.html"
+      }
+    ],
+    "official_pdf": "https://www.u-tokyo.ac.jp/content/400247319.pdf"
+  },
+  {
+    "id": "kyoto",
+    "school_name": "京都大学",
+    "school_name_jp": "京都大学",
+    "tier": 1,
+    "school_type": "国公立",
+    "watch_urls": [
+      {
+        "label": "私費外国人留学生本科入学案内",
+        "url": "https://www.kyoto-u.ac.jp/ja/international/students1/study1/undergraduate/addmissions"
+      }
+    ],
+    "official_pdf": "https://www.t.kyoto-u.ac.jp/ja/admissions/international/exam2/2026appilication_guideline.pdf"
+  },
+  {
+    "id": "tokyo-science",
+    "school_name": "东京科学大学",
+    "school_name_jp": "東京科学大学",
+    "tier": 1,
+    "school_type": "国公立",
+    "watch_urls": [
+      {
+        "label": "理工学系 私費外国人留学生特別選抜",
+        "url": "https://admissions.isct.ac.jp/ja/013/undergraduate/guideline"
+      }
+    ],
+    "official_pdf": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?contentsDataId=&contentsId=&fileName=r08-guideline-foreign&key=2d0fd38079e559300ba7c3fa788f3c65.pdf&pageId=3088&prevId=&type=1"
+  },
+  {
+    "id": "osaka",
+    "school_name": "大阪大学",
+    "school_name_jp": "大阪大学",
+    "tier": 1,
+    "school_type": "国公立",
+    "watch_urls": [
+      {
+        "label": "私費外国人留学生特別入試",
+        "url": "https://www.osaka-u.ac.jp/ja/admissions/faculty/expense"
+      }
+    ],
+    "official_pdf": "https://www.osaka-u.ac.jp/ja/admissions/faculty/expense/files/2026shihi_guideline-1.pdf/@@download/file"
+  },
+  {
+    "id": "hitotsubashi",
+    "school_name": "一桥大学",
+    "school_name_jp": "一橋大学",
+    "tier": 1,
+    "school_type": "国公立",
+    "watch_urls": [
+      {
+        "label": "募集要項",
+        "url": "https://juken.hit-u.ac.jp/admission/info/guidelines/index.html"
+      }
+    ],
+    "official_pdf": "https://juken.hit-u.ac.jp/admission/info/guidelines/files/R8ryuugaku_youkou.pdf"
+  },
+  {
+    "id": "waseda",
+    "school_name": "早稻田大学",
+    "school_name_jp": "早稲田大学",
+    "tier": 1,
+    "school_type": "私立",
+    "watch_urls": [
+      {
+        "label": "外国学生のための学部入学試験",
+        "url": "https://www.waseda.jp/inst/admission/undergraduate/system/international"
+      }
+    ],
+    "official_pdf": "https://www.waseda.jp/inst/admission/assets/uploads/2026/02/01_2027_gaikokugakusei_nyushiyoukou.pdf"
+  },
+  {
+    "id": "keio",
+    "school_name": "庆应义塾大学",
+    "school_name_jp": "慶應義塾大学",
+    "tier": 1,
+    "school_type": "私立",
+    "watch_urls": [
+      {
+        "label": "外国人留学生対象入学試験",
+        "url": "https://www.keio.ac.jp/ja/admissions/faculty/examinations/international-student/"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "sophia",
+    "school_name": "上智大学",
+    "school_name_jp": "上智大学",
+    "tier": 1,
+    "school_type": "私立",
+    "watch_urls": [
+      {
+        "label": "Undergraduate Admissions",
+        "url": "https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "tokyo-med-dental",
+    "school_name": "东京医科齿科大学（东京科学大学医歯学系）",
+    "school_name_jp": "東京医科歯科大学（東京科学大学医歯学系）",
+    "tier": 1,
+    "school_type": "国公立",
+    "watch_urls": [
+      {
+        "label": "医歯学系 入試情報",
+        "url": "https://admissions.isct.ac.jp/ja"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "icu",
+    "school_name": "国际基督教大学 ICU",
+    "school_name_jp": "国際基督教大学 ICU",
+    "tier": 1,
+    "school_type": "私立",
+    "watch_urls": [
+      {
+        "label": "Undergraduate Admissions",
+        "url": "https://www.icu.ac.jp/en/admissions/"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "nagoya",
+    "school_name": "名古屋大学",
+    "school_name_jp": "名古屋大学",
+    "tier": 2,
+    "school_type": "国公立",
+    "watch_urls": [
+      {
+        "label": "学部入試情報",
+        "url": "https://www.nagoya-u.ac.jp/admissions/exam/"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "tohoku",
+    "school_name": "东北大学",
+    "school_name_jp": "東北大学",
+    "tier": 2,
+    "school_type": "国公立",
+    "watch_urls": [
+      {
+        "label": "入試センター",
+        "url": "https://admissions.tohoku.ac.jp/ja/"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "hokkaido",
+    "school_name": "北海道大学",
+    "school_name_jp": "北海道大学",
+    "tier": 2,
+    "school_type": "国公立",
+    "watch_urls": [
+      {
+        "label": "学部入試",
+        "url": "https://www.hokudai.ac.jp/admission/faculty/"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "kyushu",
+    "school_name": "九州大学",
+    "school_name_jp": "九州大学",
+    "tier": 2,
+    "school_type": "国公立",
+    "watch_urls": [
+      {
+        "label": "学部入学者選抜",
+        "url": "https://www.kyushu-u.ac.jp/ja/admission/faculty/selection"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "kobe",
+    "school_name": "神户大学",
+    "school_name_jp": "神戸大学",
+    "tier": 2,
+    "school_type": "国公立",
+    "watch_urls": [
+      {
+        "label": "入試情報",
+        "url": "https://www.kobe-u.ac.jp/ja/admissions/"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "yokohama-national",
+    "school_name": "横滨国立大学",
+    "school_name_jp": "横浜国立大学",
+    "tier": 2,
+    "school_type": "国公立",
+    "watch_urls": [
+      {
+        "label": "学生募集要項",
+        "url": "https://www.ynu.ac.jp/exam/faculty/essential/index.html"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "tsukuba",
+    "school_name": "筑波大学",
+    "school_name_jp": "筑波大学",
+    "tier": 2,
+    "school_type": "国公立",
+    "watch_urls": [
+      {
+        "label": "入試情報サイト",
+        "url": "https://ac.tsukuba.ac.jp/"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "chiba",
+    "school_name": "千叶大学",
+    "school_name_jp": "千葉大学",
+    "tier": 2,
+    "school_type": "国公立",
+    "watch_urls": [
+      {
+        "label": "入試情報",
+        "url": "https://www.chiba-u.ac.jp/admissions/"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "tufs",
+    "school_name": "东京外国语大学",
+    "school_name_jp": "東京外国語大学",
+    "tier": 2,
+    "school_type": "国公立",
+    "watch_urls": [
+      {
+        "label": "入試情報",
+        "url": "https://www.tufs.ac.jp/admission/"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "tokyo-science-university",
+    "school_name": "东京理科大学",
+    "school_name_jp": "東京理科大学",
+    "tier": 2,
+    "school_type": "私立",
+    "watch_urls": [
+      {
+        "label": "募集要項",
+        "url": "https://www.tus.ac.jp/admissions/university/guideline/"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "meiji",
+    "school_name": "明治大学",
+    "school_name_jp": "明治大学",
+    "tier": 2,
+    "school_type": "私立",
+    "watch_urls": [
+      {
+        "label": "入試情報",
+        "url": "https://www.meiji.ac.jp/exam/"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "aoyama-gakuin",
+    "school_name": "青山学院大学",
+    "school_name_jp": "青山学院大学",
+    "tier": 2,
+    "school_type": "私立",
+    "watch_urls": [
+      {
+        "label": "学部入学者選抜",
+        "url": "https://www.aoyama.ac.jp/admission/undergraduate/examination/"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "rikkyo",
+    "school_name": "立教大学",
+    "school_name_jp": "立教大学",
+    "tier": 2,
+    "school_type": "私立",
+    "watch_urls": [
+      {
+        "label": "学部入試",
+        "url": "https://www.rikkyo.ac.jp/admissions/undergraduate/"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "chuo",
+    "school_name": "中央大学",
+    "school_name_jp": "中央大学",
+    "tier": 2,
+    "school_type": "私立",
+    "watch_urls": [
+      {
+        "label": "入試情報",
+        "url": "https://www.chuo-u.ac.jp/connect/admission/"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "ritsumeikan",
+    "school_name": "立命馆大学",
+    "school_name_jp": "立命館大学",
+    "tier": 2,
+    "school_type": "私立",
+    "watch_urls": [
+      {
+        "label": "入試情報",
+        "url": "https://admission.ritsumei.ac.jp/"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "hosei",
+    "school_name": "法政大学",
+    "school_name_jp": "法政大学",
+    "tier": 3,
+    "school_type": "私立",
+    "watch_urls": [
+      {
+        "label": "入試情報サイト",
+        "url": "https://nyushi.hosei.ac.jp/nyushi/"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "doshisha",
+    "school_name": "同志社大学",
+    "school_name_jp": "同志社大学",
+    "tier": 3,
+    "school_type": "私立",
+    "watch_urls": [
+      {
+        "label": "海外からの入学",
+        "url": "https://www.doshisha.ac.jp/international/from_abroad/admission.html"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "kwansei-gakuin",
+    "school_name": "关西学院大学",
+    "school_name_jp": "関西学院大学",
+    "tier": 3,
+    "school_type": "私立",
+    "watch_urls": [
+      {
+        "label": "入試情報",
+        "url": "https://www.kwansei.ac.jp/admissions/"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "meijo-pharmacy",
+    "school_name": "名城大学（药学）",
+    "school_name_jp": "名城大学（薬学）",
+    "tier": 3,
+    "school_type": "私立",
+    "watch_urls": [
+      {
+        "label": "入試情報",
+        "url": "https://www.meijo-u.ac.jp/admissions/"
+      }
+    ],
+    "official_pdf": null
+  },
+  {
+    "id": "tokyo-pharmacy",
+    "school_name": "东京药科大学",
+    "school_name_jp": "東京薬科大学",
+    "tier": 3,
+    "school_type": "私立",
+    "watch_urls": [
+      {
+        "label": "入試情報",
+        "url": "https://www.toyaku.ac.jp/examinee/admissions/"
+      }
+    ],
+    "official_pdf": null
+  }
+]

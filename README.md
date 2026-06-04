@@ -1,89 +1,47 @@
-# Candy 日本校内考查询库
+# Candy 日本校内考雷达
 
-移动端优先的纯静态 H5，用来查询日本大学校内考时间、考试形式、出愿要求，并引导用户添加 Candy 老师微信咨询。
+每天自动检测 30 所日本大学官方留学生入试页面，捕获变化，提供 Candy 老师人工解读。
 
-## 已实现
+## 工作机制
 
-- 首页 `index.html`
-  - 考试时间月历前置展示
-  - 学校名 / 日文名 / 学部 / 专业 / 标签实时搜索
-  - 档位、类型、方向、地区多选筛选
-  - 时间轴 / 列表视图切换
-  - 从 `schools.json` 自动派生出愿截止、校内考、合格发表 3 类事件
-  - 滚动后出现底部微信咨询 CTA
+1. GitHub Actions 每天日本时间 9:00 跑 `scripts/check-updates.mjs`
+2. 脚本逐个检查 `data/watch-list.json` 中的所有 URL
+3. 计算页面内容 hash，与上次对比
+4. 有变化 -> 写入 `data/updates.json` -> 自动 commit + push
+5. Vercel 检测到 push -> 自动重新部署网站
+6. Candy 老师每天看 `data/updates.json`，给新增的 `candy_comment` 字段填解读
+7. 解读填完 push 后，网站立刻更新
 
-- 详情页 `school.html?id={id}`
-  - 学校与专业基础信息
-  - 出愿窗口、校内考日期、合格发表日
-  - 准入要求 / 校内考 / Candy 说 3 个 Tab
-  - 必交材料
-  - 官方原文 / 募集要項链接、原文摘录、爬取快照状态
-  - 加入对比与微信咨询
+## 维护操作
 
-- 对比页 `compare.html?ids=id1,id2,id3`
-  - 支持最多 3 个专业横向对比
-  - 第一列字段固定
-  - 差异字段粉色高亮
-  - LocalStorage 保存对比清单
+### Candy 老师每日操作（约 15 分钟）
 
-## 数据文件
+1. 查看 GitHub 仓库 `data/updates.json`
+2. 找到最新一批 `candy_comment` 为空的记录
+3. 打开对应的 `watch_url`，对比官网当前内容
+4. 在 GitHub 网页直接编辑 `data/updates.json`：
+   - 填入 `candy_comment`（1-3 句话）
+   - 填入 `candy_comment_at`（当前时间 ISO 格式）
+5. 提交修改
 
-- `data/schools.json`：H5 主数据，当前为第一批 10 所 × 3 专业样例数据。
-- `data/filters.json`：筛选项配置。
-- `data/schools.schema.md`：字段说明和填写规范。
-- `data/schools-template.csv`：腾讯文档 / 表格录入空模板。
-- `data/schools-sample.csv`：由当前 30 条 JSON 数据导出的样例表。
-- `data/admission-sources.json`：官方募集要項入口、原文摘录和核验说明。
-- `data/source-snapshots.json`：由爬取脚本生成的官方页面快照状态。
-- `data/verification-report.md`：当前 30 条数据的核验报告。
-- `DEPLOY_WECHAT_OFFICIAL_ACCOUNT.md`：微信公众号投放/部署说明。
+### 增减监控学校
 
-> 当前日期和要求是产品演示样例。正式上线前，请用官网募集要项或腾讯文档核验后的真实数据覆盖。
+修改 `data/watch-list.json`，按现有格式增减条目即可。
 
-## 本地预览
+## 技术栈
 
-因为页面通过 `fetch()` 读取 JSON，建议使用静态服务器预览：
+- 静态 HTML/CSS/JS（无构建步骤）
+- Node.js（仅 GitHub Actions 中使用）
+- GitHub Actions（每日定时）
+- Vercel（自动部署）
+
+## 本地检查
 
 ```bash
-python3 -m http.server 4173
+node --check scripts/check-updates.mjs
+CANDY_DRY_RUN=1 CANDY_CHECK_LIMIT=3 CANDY_CHECK_DELAY_MS=100 node scripts/check-updates.mjs
 ```
 
-然后访问：
+## 免责声明
 
-```text
-http://localhost:4173/
-```
-
-## 表格导出
-
-更新 `data/schools.json` 后，可重新生成样例 CSV：
-
-```bash
-node scripts/export-schools-csv.mjs
-```
-
-## 官方来源爬取
-
-更新 `data/admission-sources.json` 后，可重新抓取官方页面状态：
-
-```bash
-node scripts/crawl-admission-sources.mjs
-```
-
-## 可选验证
-
-本机安装 Playwright 后，可以跑浏览器回归脚本：
-
-```bash
-node scripts/verify-h5.mjs
-```
-
-如果需要指定 Chrome：
-
-```bash
-CHROME_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" node scripts/verify-h5.mjs
-```
-
-## 部署
-
-把这些文件推到已关联 Vercel 的 GitHub 仓库即可自动部署。项目没有 React/Vue/Webpack，也没有构建步骤。
+本网站监控的是公开的大学入试信息页面，仅用于教育研究目的。所有解读为 Candy 老师个人观点，不代表大学官方立场。最终申请决策请以各校官方公告为准。
