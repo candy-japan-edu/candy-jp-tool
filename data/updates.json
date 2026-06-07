@@ -1,5 +1,35 @@
 [
   {
+    "id": "update-1780798011881-aoyama-gakuin-dcac7caa",
+    "detected_at": "2026-06-07T02:06:51.881Z",
+    "school_id": "aoyama-gakuin",
+    "school_name": "青山学院大学",
+    "watch_url": "https://www.aoyama.ac.jp/admission/undergraduate/examination/",
+    "watch_label": "学部入学者選抜",
+    "official_pdf": "",
+    "candy_comment": "",
+    "candy_comment_at": null,
+    "previous_hash": "f677f6114e17f2914076b4a62cfed85dda4752dfb8acffe8b2a6044f64c2c828",
+    "current_hash": "81def46ae668a1eb4d0eeb2c17f59fb495f4a6e13acfac2cef6b5a7cdab5359a",
+    "content_length": 144895,
+    "final_url": "https://www.aoyama.ac.jp/admission/undergraduate/examination/"
+  },
+  {
+    "id": "update-1780798023839-hosei-6792a152",
+    "detected_at": "2026-06-07T02:07:03.839Z",
+    "school_id": "hosei",
+    "school_name": "法政大学",
+    "watch_url": "https://nyushi.hosei.ac.jp/nyushi/",
+    "watch_label": "入試情報サイト",
+    "official_pdf": "",
+    "candy_comment": "",
+    "candy_comment_at": null,
+    "previous_hash": "0e60e68395f05b15a5a99c7369b56633c762712c30f2e66f099d664d9d8dd50a",
+    "current_hash": "d792541f92af195b65c79c483b0370f87a0ea836c3846395aa9901f44cde81cc",
+    "content_length": 19960,
+    "final_url": "https://nyushi.hosei.ac.jp/nyushi/"
+  },
+  {
     "id": "update-1780710729360-tokyo-med-dental-78190665",
     "detected_at": "2026-06-06T01:52:09.360Z",
     "school_id": "tokyo-med-dental",
