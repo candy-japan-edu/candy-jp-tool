@@ -1,5 +1,35 @@
 [
   {
+    "id": "update-1785028988004-aoyama-gakuin-dcac7caa",
+    "detected_at": "2026-07-26T01:23:08.003Z",
+    "school_id": "aoyama-gakuin",
+    "school_name": "青山学院大学",
+    "watch_url": "https://www.aoyama.ac.jp/admission/undergraduate/examination/",
+    "watch_label": "学部入学者選抜",
+    "official_pdf": "",
+    "candy_comment": "",
+    "candy_comment_at": null,
+    "previous_hash": "49418eb00426500a9853f7cd559d840286528943bc80cada234a396dcf46d45e",
+    "current_hash": "75ebb08f11acb19e3f0f3526154f66aba258190d8882f403521061951983891e",
+    "content_length": 145201,
+    "final_url": "https://www.aoyama.ac.jp/admission/undergraduate/examination/"
+  },
+  {
+    "id": "update-1785028999940-hosei-6792a152",
+    "detected_at": "2026-07-26T01:23:19.940Z",
+    "school_id": "hosei",
+    "school_name": "法政大学",
+    "watch_url": "https://nyushi.hosei.ac.jp/nyushi/",
+    "watch_label": "入試情報サイト",
+    "official_pdf": "",
+    "candy_comment": "",
+    "candy_comment_at": null,
+    "previous_hash": "d1f8ff6dfeb970e9cc7459c871792b591c678f5e680610ad87d656ff813df5c8",
+    "current_hash": "91c35182500c896357a26250f0d7c483a0c85d90e17c692af47d0bcf6c60230a",
+    "content_length": 21246,
+    "final_url": "https://nyushi.hosei.ac.jp/nyushi/"
+  },
+  {
     "id": "update-1784942393100-keio-579c6474",
     "detected_at": "2026-07-25T01:19:53.100Z",
     "school_id": "keio",
