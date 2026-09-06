@@ -1,5 +1,35 @@
 [
   {
+    "id": "update-1788658104029-aoyama-gakuin-dcac7caa",
+    "detected_at": "2026-09-06T01:28:24.028Z",
+    "school_id": "aoyama-gakuin",
+    "school_name": "青山学院大学",
+    "watch_url": "https://www.aoyama.ac.jp/admission/undergraduate/examination/",
+    "watch_label": "学部入学者選抜",
+    "official_pdf": "",
+    "candy_comment": "",
+    "candy_comment_at": null,
+    "previous_hash": "23e62d19305b70501ab42e2af4b3158aa038ee0ff9dba8b26d2718cd037d83ed",
+    "current_hash": "deadd24e92c5f015d90e0bbbf2a8406723bfa52649bc48052df9e19dee71f078",
+    "content_length": 116271,
+    "final_url": "https://www.aoyama.ac.jp/admission/undergraduate/examination/"
+  },
+  {
+    "id": "update-1788658115911-hosei-6792a152",
+    "detected_at": "2026-09-06T01:28:35.911Z",
+    "school_id": "hosei",
+    "school_name": "法政大学",
+    "watch_url": "https://nyushi.hosei.ac.jp/nyushi/",
+    "watch_label": "入試情報サイト",
+    "official_pdf": "",
+    "candy_comment": "",
+    "candy_comment_at": null,
+    "previous_hash": "e50b79431fd9ad6708d5ab516ae337b202c04e06d2b6e05d0601db4866ded9a1",
+    "current_hash": "ed4c77ccc72956560506e0e5725a392649ce2f39ce54f73f831484cdd509d28a",
+    "content_length": 21246,
+    "final_url": "https://nyushi.hosei.ac.jp/nyushi/"
+  },
+  {
     "id": "update-1788572009308-tokyo-med-dental-78190665",
     "detected_at": "2026-09-05T01:33:29.307Z",
     "school_id": "tokyo-med-dental",
@@ -7472,35 +7502,5 @@
     "current_hash": "b99338a2e158ed5e95aac1d850c584b221c1f258c4769bed42301c85ef051f4c",
     "content_length": 144895,
     "final_url": "https://www.aoyama.ac.jp/admission/undergraduate/examination/"
-  },
-  {
-    "id": "update-1781316075443-hosei-6792a152",
-    "detected_at": "2026-06-13T02:01:15.443Z",
-    "school_id": "hosei",
-    "school_name": "法政大学",
-    "watch_url": "https://nyushi.hosei.ac.jp/nyushi/",
-    "watch_label": "入試情報サイト",
-    "official_pdf": "",
-    "candy_comment": "",
-    "candy_comment_at": null,
-    "previous_hash": "0a27ae1c588b9c0c5568152255e43d4d7da30d682d2be6986c6bfa130747fc7e",
-    "current_hash": "ee63b69aab996bfee1269709cc40ffc66fed3083f69b9b28b66b2dfcd4a17457",
-    "content_length": 19960,
-    "final_url": "https://nyushi.hosei.ac.jp/nyushi/"
-  },
-  {
-    "id": "update-1781316085829-meijo-pharmacy-a121d843",
-    "detected_at": "2026-06-13T02:01:25.829Z",
-    "school_id": "meijo-pharmacy",
-    "school_name": "名城大学（药学）",
-    "watch_url": "https://www.meijo-u.ac.jp/admissions/",
-    "watch_label": "入試情報",
-    "official_pdf": "",
-    "candy_comment": "",
-    "candy_comment_at": null,
-    "previous_hash": "c51df8d1464817216fab0626f3e7394edc5bbbe7d524558ab849521dd5717934",
-    "current_hash": "57c910c2adb456b5ee6d73250070c976fb1533e1b8212365514503a22e3f1111",
-    "content_length": 184847,
-    "final_url": "https://www.meijo-u.ac.jp/admissions/"
   }
 ]
