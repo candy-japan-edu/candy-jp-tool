@@ -1,5 +1,35 @@
 [
   {
+    "id": "update-1789263286242-aoyama-gakuin-dcac7caa",
+    "detected_at": "2026-09-13T01:34:46.242Z",
+    "school_id": "aoyama-gakuin",
+    "school_name": "青山学院大学",
+    "watch_url": "https://www.aoyama.ac.jp/admission/undergraduate/examination/",
+    "watch_label": "学部入学者選抜",
+    "official_pdf": "",
+    "candy_comment": "",
+    "candy_comment_at": null,
+    "previous_hash": "df57b67d63b217e20e2f662e6b04fa06bc01b840f2242ce0babd0675f440270f",
+    "current_hash": "4ddc4770cde8885cebe3d04f4b09aae459025bfc467134bc62f7dd93853c4ce4",
+    "content_length": 116378,
+    "final_url": "https://www.aoyama.ac.jp/admission/undergraduate/examination/"
+  },
+  {
+    "id": "update-1789263298188-hosei-6792a152",
+    "detected_at": "2026-09-13T01:34:58.188Z",
+    "school_id": "hosei",
+    "school_name": "法政大学",
+    "watch_url": "https://nyushi.hosei.ac.jp/nyushi/",
+    "watch_label": "入試情報サイト",
+    "official_pdf": "",
+    "candy_comment": "",
+    "candy_comment_at": null,
+    "previous_hash": "aaf0857fe5423b8f47efc59edd0963dbbd3688a267759571a47b2dc0b71954ac",
+    "current_hash": "7e0e49be13638ee321561d2fb95b9d80ee687df1c41ef6a3fee534f0d5250923",
+    "content_length": 21246,
+    "final_url": "https://nyushi.hosei.ac.jp/nyushi/"
+  },
+  {
     "id": "update-1789177418020-tokyo-med-dental-78190665",
     "detected_at": "2026-09-12T01:43:38.020Z",
     "school_id": "tokyo-med-dental",
@@ -7472,35 +7502,5 @@
     "current_hash": "211a3359194c0f65842295e1aad64835ec5a1f48b3d3d72d3b38b9bdfaa3ec44",
     "content_length": 62421,
     "final_url": "https://admissions.isct.ac.jp/ja"
-  },
-  {
-    "id": "update-1781920849972-tohoku-76fefc5d",
-    "detected_at": "2026-06-20T02:00:49.972Z",
-    "school_id": "tohoku",
-    "school_name": "东北大学",
-    "watch_url": "https://admissions.tohoku.ac.jp/ja/",
-    "watch_label": "入試センター",
-    "official_pdf": "",
-    "candy_comment": "",
-    "candy_comment_at": null,
-    "previous_hash": "3f60f916bf574d968c0014d429222fb969da0d032eb09e2af7c6635ca8593994",
-    "current_hash": "c2367dd8d4a3eb4cac1a5d5ad830f3928e70064529580dfa11ed67590b5b374a",
-    "content_length": 46575,
-    "final_url": "https://admissions.tohoku.ac.jp/ja/"
-  },
-  {
-    "id": "update-1781920866364-tsukuba-800a14c5",
-    "detected_at": "2026-06-20T02:01:06.364Z",
-    "school_id": "tsukuba",
-    "school_name": "筑波大学",
-    "watch_url": "https://ac.tsukuba.ac.jp/",
-    "watch_label": "入試情報サイト",
-    "official_pdf": "",
-    "candy_comment": "",
-    "candy_comment_at": null,
-    "previous_hash": "13d1b587d62140a42d78dda3cdc3e2ad700f7e1fd03bddce3919207b03b92c6a",
-    "current_hash": "a782a3c0283145b8841658579548062521ee743f494db968edc9e87ca453cb50",
-    "content_length": 37875,
-    "final_url": "https://ac.tsukuba.ac.jp/"
   }
 ]
