@@ -1,5 +1,35 @@
 [
   {
+    "id": "update-1789955541260-aoyama-gakuin-dcac7caa",
+    "detected_at": "2026-09-21T01:52:21.260Z",
+    "school_id": "aoyama-gakuin",
+    "school_name": "青山学院大学",
+    "watch_url": "https://www.aoyama.ac.jp/admission/undergraduate/examination/",
+    "watch_label": "学部入学者選抜",
+    "official_pdf": "",
+    "candy_comment": "",
+    "candy_comment_at": null,
+    "previous_hash": "07244fd8b41d8baf8ab4e08418a4435a54feaaa9aaafa385f38d5cb049f2c952",
+    "current_hash": "caefd2921d5bca5f8df03b95a96976153e1b62e5639cc542727d93d86a9df098",
+    "content_length": 117315,
+    "final_url": "https://www.aoyama.ac.jp/admission/undergraduate/examination/"
+  },
+  {
+    "id": "update-1789955552989-hosei-6792a152",
+    "detected_at": "2026-09-21T01:52:32.989Z",
+    "school_id": "hosei",
+    "school_name": "法政大学",
+    "watch_url": "https://nyushi.hosei.ac.jp/nyushi/",
+    "watch_label": "入試情報サイト",
+    "official_pdf": "",
+    "candy_comment": "",
+    "candy_comment_at": null,
+    "previous_hash": "837459fe1caacd1bc58ac8f3415f7d55e5500a074866efea506b4dba7fea3917",
+    "current_hash": "0b51ba0a7efd09d87eb863b7f9ed1de0663b50e2fba3b236494edaa0a6d4b055",
+    "content_length": 21126,
+    "final_url": "https://nyushi.hosei.ac.jp/nyushi/"
+  },
+  {
     "id": "update-1789869089707-aoyama-gakuin-dcac7caa",
     "detected_at": "2026-09-20T01:51:29.706Z",
     "school_id": "aoyama-gakuin",
@@ -7473,35 +7503,5 @@
     "current_hash": "78fa018af87e751881c8f05262a8a2b4575415b5ecd1782f3a375e5ed3d59ca6",
     "content_length": 86627,
     "final_url": "https://admission.ritsumei.ac.jp/"
-  },
-  {
-    "id": "update-1782439189865-hosei-6792a152",
-    "detected_at": "2026-06-26T01:59:49.865Z",
-    "school_id": "hosei",
-    "school_name": "法政大学",
-    "watch_url": "https://nyushi.hosei.ac.jp/nyushi/",
-    "watch_label": "入試情報サイト",
-    "official_pdf": "",
-    "candy_comment": "",
-    "candy_comment_at": null,
-    "previous_hash": "0737a95bccc3f91491b4450634a535f04ff08c5d22b9b40c6f88050dbf972285",
-    "current_hash": "2cffd7c4f7b064f39af780e5cd40208356fc08f13111a8be8b26784f4df74bb8",
-    "content_length": 19960,
-    "final_url": "https://nyushi.hosei.ac.jp/nyushi/"
-  },
-  {
-    "id": "update-1782439195673-kwansei-gakuin-dddfcd38",
-    "detected_at": "2026-06-26T01:59:55.673Z",
-    "school_id": "kwansei-gakuin",
-    "school_name": "关西学院大学",
-    "watch_url": "https://www.kwansei.ac.jp/admissions/",
-    "watch_label": "入試情報",
-    "official_pdf": "",
-    "candy_comment": "",
-    "candy_comment_at": null,
-    "previous_hash": "730610b083a8b69657bb2ab8250af29535872a6e95e41bb7c986e3e4e012214f",
-    "current_hash": "c59713333a1b3b4dddd18e4d1ca97ed48cc5eb84633850c5ad104bd63dcfe746",
-    "content_length": 26920,
-    "final_url": "https://www.kwansei.ac.jp/admissions/"
   }
 ]
