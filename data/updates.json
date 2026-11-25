@@ -1,5 +1,35 @@
 [
   {
+    "id": "update-1795585642355-aoyama-gakuin-dcac7caa",
+    "detected_at": "2026-11-25T05:47:22.355Z",
+    "school_id": "aoyama-gakuin",
+    "school_name": "青山学院大学",
+    "watch_url": "https://www.aoyama.ac.jp/admission/undergraduate/examination/",
+    "watch_label": "学部入学者選抜",
+    "official_pdf": "",
+    "candy_comment": "",
+    "candy_comment_at": null,
+    "previous_hash": "a7456ac690b22cc6655148aac9f7285298addf777e99d12495ba995c97424556",
+    "current_hash": "f5814b4d31988b269ce8c25672f7a9a9542806f5eec8eaabd6449ff73329e87d",
+    "content_length": 116755,
+    "final_url": "https://www.aoyama.ac.jp/admission/undergraduate/examination/"
+  },
+  {
+    "id": "update-1795585653654-hosei-6792a152",
+    "detected_at": "2026-11-25T05:47:33.654Z",
+    "school_id": "hosei",
+    "school_name": "法政大学",
+    "watch_url": "https://nyushi.hosei.ac.jp/nyushi/",
+    "watch_label": "入試情報サイト",
+    "official_pdf": "",
+    "candy_comment": "",
+    "candy_comment_at": null,
+    "previous_hash": "57a140fe308d9f560b13d24fccc19b7e95997e4c17b58615f0d6f67ae1cb764d",
+    "current_hash": "befd958e92a1a424acd70fc71d5869d75a0f04be5029f43d8086b88192f3dc59",
+    "content_length": 21076,
+    "final_url": "https://nyushi.hosei.ac.jp/nyushi/"
+  },
+  {
     "id": "update-1795504393192-kyoto-bc27d0bc",
     "detected_at": "2026-11-24T07:13:13.192Z",
     "school_id": "kyoto",
@@ -7474,35 +7504,5 @@
     "current_hash": "a75f396b35db2fbf4842945656c253577e9dc560890b567486282ee1b673ccd0",
     "content_length": 25982,
     "final_url": "https://www.kwansei.ac.jp/admissions/"
-  },
-  {
-    "id": "update-1787807743203-tokyo-pharmacy-06abc565",
-    "detected_at": "2026-08-27T05:15:43.203Z",
-    "school_id": "tokyo-pharmacy",
-    "school_name": "东京药科大学",
-    "watch_url": "https://www.toyaku.ac.jp/examinee/admissions/",
-    "watch_label": "入試情報",
-    "official_pdf": "",
-    "candy_comment": "",
-    "candy_comment_at": null,
-    "previous_hash": "c57d4d39a26c2c35e35f814e6a22cdc7c2c82889f6466d956709e2eaeb0030bb",
-    "current_hash": "4c7484d76480b8233258f2c827dd7ce712a469cee803afe1cccd319019367cd1",
-    "content_length": 22142,
-    "final_url": "https://www.toyaku.ac.jp/examinee/admissions/"
-  },
-  {
-    "id": "update-1787704176946-hitotsubashi-02c78548",
-    "detected_at": "2026-08-26T00:29:36.946Z",
-    "school_id": "hitotsubashi",
-    "school_name": "一桥大学",
-    "watch_url": "https://juken.hit-u.ac.jp/admission/info/guidelines/index.html",
-    "watch_label": "募集要項",
-    "official_pdf": "https://juken.hit-u.ac.jp/admission/info/guidelines/files/R8ryuugaku_youkou.pdf",
-    "candy_comment": "",
-    "candy_comment_at": null,
-    "previous_hash": "c1a176877375e2f3fed97555312a2c60696c762e5d58ff5e28832bb964b80940",
-    "current_hash": "f701af4263907e08ff8c5eb46fc3de81054adba38eff52b1056b91cecaee79f3",
-    "content_length": 18336,
-    "final_url": "https://juken.hit-u.ac.jp/admission/info/guidelines/index.html"
   }
 ]
